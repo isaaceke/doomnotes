@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Export Saved Posts</title>
+  <style>
+    body {
+      width: 320px;
+      padding: 16px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #121212;
+      color: #e0e0e0;
+    }
+    h2 {
+      font-size: 16px;
+      margin: 0 0 12px;
+    }
+    .platform {
+      margin-bottom: 12px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    button:hover {
+      background: #1976D2;
+    }
+    .status {
+      margin-top: 8px;
+      font-size: 12px;
+      color: #b0b0b0;
+    }
+    .small {
+      font-size: 11px;
+      color: #999;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Export Saved Posts</h2>
+
+  <div class="platform">
+    <button id="exportX">Export X Bookmarks</button>
+    <div id="statusX" class="status"></div>
+  </div>
+
+  <div class="platform">
+    <button id="exportInstagram">Export Instagram Saved</button>
+    <div id="statusInstagram" class="status"></div>
+  </div>
+
+  <div class="platform">
+    <button id="exportYouTube">Export YouTube Watch Later</button>
+    <div id="statusYouTube" class="status"></div>
+  </div>
+
+  <div class="small">
+    Exports are saved as JSON. Import them into DoomNotes via Batch Capture.
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

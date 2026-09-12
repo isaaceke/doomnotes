@@ -1,0 +1,6 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Keep this project's linting light for now — tighten later if you want.
+    prefer_const_constructors: false

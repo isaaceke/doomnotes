@@ -1,0 +1,216 @@
+{
+  "packId": "lifestyle_beauty_personal_care",
+  "label": "Lifestyle, Beauty & Personal Care",
+  "topics": [
+    {
+      "id": "skincare",
+      "label": "Skincare",
+      "icon": "face",
+      "strongKeywords": ["skincare routine", "skin care"],
+      "keywords": ["retinol", "vitamin c serum", "niacinamide", "sunscreen", "spf", "cleanser", "moisturizer", "acne", "skin barrier", "exfoliation"]
+    },
+    {
+      "id": "makeup",
+      "label": "Makeup",
+      "icon": "face_2",
+      "strongKeywords": ["makeup tutorial", "make up tutorial"],
+      "keywords": ["foundation", "concealer", "lip liner", "blush", "contour", "eyeshadow", "mascara", "brow gel", "makeup look", "grwm"]
+    },
+    {
+      "id": "haircare",
+      "label": "Haircare",
+      "icon": "content_cut",
+      "strongKeywords": ["hair care", "hair routine"],
+      "keywords": ["hair growth", "scalp care", "curly hair", "natural hair", "protective style", "shampoo", "conditioner", "hair oil", "silk press"]
+    },
+    {
+      "id": "nails_beauty",
+      "label": "Nails",
+      "icon": "back_hand",
+      "strongKeywords": ["nail tutorial", "nail art"],
+      "keywords": ["manicure", "pedicure", "gel nails", "acrylic nails", "press on nails", "nail design", "nail tech", "chrome nails", "french tip"]
+    },
+    {
+      "id": "fragrance",
+      "label": "Fragrance",
+      "icon": "local_florist",
+      "strongKeywords": ["perfume review", "fragrance collection"],
+      "keywords": ["perfume", "cologne", "fragrance", "scent", "perfume layering", "gourmand", "oud", "vanilla perfume", "signature scent"]
+    },
+    {
+      "id": "fashion_style",
+      "label": "Fashion & Personal Style",
+      "icon": "checkroom",
+      "strongKeywords": ["style inspiration", "outfit ideas"],
+      "keywords": ["outfit", "ootd", "capsule wardrobe", "streetwear", "fashion haul", "styling tips", "closet", "wardrobe", "fashion trend"]
+    },
+    {
+      "id": "shopping_deals",
+      "label": "Shopping, Hauls & Deals",
+      "icon": "shopping_bag",
+      "strongKeywords": ["amazon finds", "shopping haul"],
+      "keywords": ["amazon find", "tiktok shop", "haul", "sale", "discount code", "dupe", "must have", "product review", "shopping list"]
+    },
+    {
+      "id": "home_decor",
+      "label": "Home Decor",
+      "icon": "weekend",
+      "strongKeywords": ["home decor", "room makeover"],
+      "keywords": ["apartment decor", "room decor", "home aesthetic", "interior styling", "furniture find", "cozy home", "living room makeover"]
+    },
+    {
+      "id": "cleaning_organization",
+      "label": "Cleaning & Organization",
+      "icon": "cleaning_services",
+      "strongKeywords": ["clean with me", "home organization"],
+      "keywords": ["cleaning routine", "declutter", "organize with me", "pantry organization", "laundry", "reset routine", "home reset", "cleaning hack"]
+    },
+    {
+      "id": "cooking_recipes",
+      "label": "Recipes & Cooking",
+      "icon": "restaurant",
+      "strongKeywords": ["easy recipe", "recipe tutorial"],
+      "keywords": ["recipe", "meal prep", "dinner idea", "air fryer", "baking", "high protein meal", "quick meal", "cooking hack", "food prep"]
+    },
+    {
+      "id": "coffee_cafe",
+      "label": "Coffee & Cafes",
+      "icon": "coffee",
+      "strongKeywords": ["coffee recipe", "cafe review"],
+      "keywords": ["coffee", "matcha", "espresso", "latte", "iced coffee", "coffee shop", "cafe", "barista", "coffee setup"]
+    },
+    {
+      "id": "travel_lifestyle",
+      "label": "Travel Inspiration",
+      "icon": "flight_takeoff",
+      "strongKeywords": ["travel itinerary", "travel guide"],
+      "keywords": ["travel vlog", "travel tips", "weekend getaway", "bucket list", "hotel review", "solo travel", "travel aesthetic", "packing list"]
+    },
+    {
+      "id": "wellness_routines",
+      "label": "Wellness Routines",
+      "icon": "spa",
+      "strongKeywords": ["wellness routine", "morning routine"],
+      "keywords": ["morning routine", "night routine", "self care", "wellness", "healthy habits", "reset day", "glow up", "daily routine"]
+    },
+    {
+      "id": "fitness_lifestyle",
+      "label": "Fitness Lifestyle",
+      "icon": "fitness_center",
+      "strongKeywords": ["fitness routine", "gym routine"],
+      "keywords": ["gym routine", "pilates workout", "home workout", "fitness journey", "workout set", "weight training", "running routine"]
+    },
+    {
+      "id": "nutrition_lifestyle",
+      "label": "Nutrition & Healthy Eating",
+      "icon": "nutrition",
+      "strongKeywords": ["healthy eating", "nutrition tips"],
+      "keywords": ["healthy recipe", "protein", "calorie deficit", "gut health", "balanced meal", "meal ideas", "nutrition", "macro friendly"]
+    },
+    {
+      "id": "dating_relationships",
+      "label": "Dating & Relationships",
+      "icon": "favorite",
+      "strongKeywords": ["dating advice", "relationship advice"],
+      "keywords": ["dating", "relationship", "situationship", "dating app", "red flag", "green flag", "boyfriend", "girlfriend", "breakup advice"]
+    },
+    {
+      "id": "friendships_social_life",
+      "label": "Friendships & Social Life",
+      "icon": "group",
+      "strongKeywords": ["friendship advice", "making friends"],
+      "keywords": ["friendship", "best friend", "social anxiety", "making friends", "girls night", "social life", "community", "adult friendship"]
+    },
+    {
+      "id": "parenting_family",
+      "label": "Parenting & Family",
+      "icon": "family_restroom",
+      "strongKeywords": ["parenting tips", "mom life"],
+      "keywords": ["parenting", "mom life", "dad life", "toddler", "baby", "family routine", "pregnancy", "newborn", "family vlog"]
+    },
+    {
+      "id": "wedding_events",
+      "label": "Weddings & Events",
+      "icon": "celebration",
+      "strongKeywords": ["wedding planning", "bridal inspiration"],
+      "keywords": ["wedding", "bride", "groom", "engagement", "wedding dress", "wedding decor", "bridal shower", "event planning"]
+    },
+    {
+      "id": "personal_finance_lifestyle",
+      "label": "Personal Finance",
+      "icon": "savings",
+      "strongKeywords": ["personal finance", "money tips"],
+      "keywords": ["budgeting", "saving money", "money management", "debt payoff", "financial goals", "side hustle", "investing basics", "frugal living"]
+    },
+    {
+      "id": "booktok_reading",
+      "label": "Books & Reading",
+      "icon": "menu_book",
+      "strongKeywords": ["booktok", "book recommendation"],
+      "keywords": ["booktok", "reading list", "romance book", "fantasy book", "book review", "reading vlog", "kindle", "book haul"]
+    },
+    {
+      "id": "journaling_planning",
+      "label": "Journaling & Planning",
+      "icon": "event_note",
+      "strongKeywords": ["journal with me", "planning routine"],
+      "keywords": ["journaling", "bullet journal", "planner", "vision board", "goal setting", "gratitude journal", "notion template", "daily planning"]
+    },
+    {
+      "id": "pets_lifestyle",
+      "label": "Pets",
+      "icon": "pets",
+      "strongKeywords": ["pet care", "dog training"],
+      "keywords": ["dog", "cat", "pet routine", "dog training", "cat care", "pet product", "puppy", "pet parent"]
+    },
+    {
+      "id": "beauty_treatments",
+      "label": "Beauty Treatments",
+      "icon": "auto_fix_high",
+      "strongKeywords": ["beauty treatment", "aesthetic treatment"],
+      "keywords": ["facial", "lash lift", "brow lamination", "laser hair removal", "chemical peel", "microneedling", "botox", "filler"]
+    },
+    {
+      "id": "modest_style",
+      "label": "Modest Style",
+      "icon": "checkroom",
+      "strongKeywords": ["modest fashion", "modest outfit"],
+      "keywords": ["modest style", "modest fashion", "hijab style", "abaya", "modest outfit", "covered fashion", "fashion inspiration"]
+    },
+    {
+      "id": "natural_living",
+      "label": "Natural & Low-Tox Living",
+      "icon": "eco",
+      "strongKeywords": ["low tox living", "natural living"],
+      "keywords": ["non toxic", "low tox", "natural products", "clean living", "eco friendly home", "sustainable swaps", "zero waste"]
+    },
+    {
+      "id": "astrology_spirituality",
+      "label": "Astrology & Spirituality",
+      "icon": "nights_stay",
+      "strongKeywords": ["birth chart", "astrology reading"],
+      "keywords": ["astrology", "zodiac", "birth chart", "tarot", "manifestation", "spirituality", "crystal", "moon ritual"]
+    },
+    {
+      "id": "lifestyle_vlogs",
+      "label": "Lifestyle Vlogs",
+      "icon": "video_camera_front",
+      "strongKeywords": ["day in my life", "weekly vlog"],
+      "keywords": ["day in my life", "weekly vlog", "weekend vlog", "realistic vlog", "productive day", "lifestyle content", "vlog"]
+    },
+    {
+      "id": "beauty_products_reviews",
+      "label": "Beauty Product Reviews",
+      "icon": "rate_review",
+      "strongKeywords": ["beauty review", "makeup review"],
+      "keywords": ["beauty review", "skincare review", "foundation review", "sephora haul", "ulta haul", "product empty", "beauty favorites"]
+    },
+    {
+      "id": "self_confidence",
+      "label": "Confidence & Glow-Up",
+      "icon": "wb_sunny",
+      "strongKeywords": ["confidence tips", "glow up tips"],
+      "keywords": ["confidence", "glow up", "self esteem", "self worth", "feminine energy", "personal growth", "becoming your best self"]
+    }
+  ]
+}

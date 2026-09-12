@@ -1,0 +1,8 @@
+# DOOMNOTES - Python Dependencies for Transcription Backend
+# Install with: pip install -r requirements.txt
+# All packages are free and open-source
+
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+yt-dlp==2024.3.10  # Video downloader (supports Instagram, TikTok, YouTube)

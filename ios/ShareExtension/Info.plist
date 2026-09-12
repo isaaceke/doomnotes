@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+
+    <key>CFBundleDisplayName</key>
+    <string>DoomNotes Share</string>
+
+    <key>CFBundleIdentifier</key>
+    <string>com.doomnotes.app.ShareExtension</string>
+
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+
+    <key>CFBundlePackageType</key>
+    <string>XPC!</string>
+
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+
+    <key>CFBundleVersion</key>
+    <string>1</string>
+
+    <!--
+      This is a headless share extension: it has no UI of its own and
+      hands off immediately to receive_sharing_intent's RSIShareViewController
+      (see ShareViewController.swift). There is no storyboard, so this uses
+      NSExtensionPrincipalClass rather than NSExtensionMainStoryboard — an
+      earlier draft pointed at a "MainInterface" storyboard that was never
+      actually created anywhere in this project, which would have failed
+      to build in Xcode.
+    -->
+    <key>NSExtension</key>
+    <dict>
+        <key>NSExtensionAttributes</key>
+        <dict>
+            <key>NSExtensionActivationRule</key>
+            <dict>
+                <key>NSExtensionActivationSupportsText</key>
+                <true/>
+                <key>NSExtensionActivationSupportsWebURL</key>
+                <true/>
+                <key>NSExtensionActivationSupportsWebPageWithSearch</key>
+                <true/>
+            </dict>
+        </dict>
+        <key>NSExtensionPrincipalClass</key>
+        <string>$(PRODUCT_MODULE_NAME).ShareViewController</string>
+        <key>NSExtensionPointIdentifier</key>
+        <string>com.apple.share-services</string>
+    </dict>
+
+    <!--
+      App Group used by receive_sharing_intent to hand shared content back
+      to the main app. Must exactly match the group you create under
+      Signing & Capabilities → App Groups on BOTH the Runner and
+      Share Extension targets in Xcode (see
+      docs/IOS_SHARE_EXTENSION_SETUP.md).
+    -->
+    <key>AppGroupId</key>
+    <string>group.com.doomnotes.app</string>
+</dict>
+</plist>

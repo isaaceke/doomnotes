@@ -1,0 +1,174 @@
+{
+  "packId": "technical_creatives",
+  "label": "Technical Creatives",
+  "topics": [
+    {
+      "id": "video_editing_workflow",
+      "label": "Video Editing",
+      "icon": "content_cut",
+      "strongKeywords": ["video editing", "editing workflow"],
+      "keywords": ["premiere pro", "davinci resolve", "final cut pro", "capcut", "timeline", "proxy workflow", "cutting", "export settings", "editing tips"]
+    },
+    {
+      "id": "color_grading",
+      "label": "Color Grading",
+      "icon": "color_lens",
+      "strongKeywords": ["color grading", "color correction"],
+      "keywords": ["lut", "davinci resolve", "rec709", "log footage", "color space", "waveform", "vectorscope", "skin tones", "film look", "colorist"]
+    },
+    {
+      "id": "cinematography",
+      "label": "Cinematography",
+      "icon": "videocam",
+      "strongKeywords": ["cinematography tutorial", "cinematic lighting"],
+      "keywords": ["camera movement", "shot composition", "frame rate", "anamorphic", "camera rig", "cinematic shot", "lighting ratio", "lens choice"]
+    },
+    {
+      "id": "camera_gear",
+      "label": "Camera Gear",
+      "icon": "camera_alt",
+      "strongKeywords": ["camera gear", "camera review"],
+      "keywords": ["mirrorless camera", "dslr", "camera body", "prime lens", "zoom lens", "gimbal", "tripod", "monitor", "camera setup", "lens review"]
+    },
+    {
+      "id": "sound_design",
+      "label": "Sound Design",
+      "icon": "surround_sound",
+      "strongKeywords": ["sound design", "sound effects"],
+      "keywords": ["foley", "ambience", "sound effect", "audio layers", "sound library", "audio post production", "soundscape", "audio editing"]
+    },
+    {
+      "id": "audio_engineering",
+      "label": "Audio Engineering",
+      "icon": "graphic_eq",
+      "strongKeywords": ["audio engineering", "mixing tutorial"],
+      "keywords": ["audio mix", "mastering", "equalizer", "compressor", "reverb", "gain staging", "ableton", "logic pro", "pro tools", "mix bus"]
+    },
+    {
+      "id": "3d_modeling",
+      "label": "3D Modeling",
+      "icon": "view_in_ar",
+      "strongKeywords": ["3d modeling", "3d model"],
+      "keywords": ["blender", "maya", "cinema 4d", "3ds max", "mesh", "topology", "uv unwrap", "3d asset", "modeling tutorial"]
+    },
+    {
+      "id": "3d_animation",
+      "label": "3D Animation",
+      "icon": "animation",
+      "strongKeywords": ["3d animation", "character rigging"],
+      "keywords": ["rigging", "keyframe animation", "motion capture", "character animation", "blender animation", "3d render", "animation curve"]
+    },
+    {
+      "id": "vfx_compositing",
+      "label": "VFX & Compositing",
+      "icon": "auto_fix_high",
+      "strongKeywords": ["visual effects", "vfx breakdown"],
+      "keywords": ["after effects", "nuke", "green screen", "keying", "roto", "tracking", "compositing", "cgi", "vfx shot", "particle effect"]
+    },
+    {
+      "id": "motion_design",
+      "label": "Motion Design",
+      "icon": "motion_photos_on",
+      "strongKeywords": ["motion design", "motion graphics"],
+      "keywords": ["after effects", "kinetic typography", "animated logo", "lower third", "motion graphic", "expressions", "keyframes", "transition design"]
+    },
+    {
+      "id": "ui_motion",
+      "label": "UI Motion & Prototyping",
+      "icon": "smart_button",
+      "strongKeywords": ["ui animation", "interactive prototype"],
+      "keywords": ["figma prototype", "framer", "rive", "lottie", "microinteraction", "app animation", "interaction design", "prototype animation"]
+    },
+    {
+      "id": "game_design",
+      "label": "Game Design",
+      "icon": "sports_esports",
+      "strongKeywords": ["game design", "game development"],
+      "keywords": ["unity", "unreal engine", "game mechanic", "level design", "gameplay loop", "indie game", "game jam", "player experience"]
+    },
+    {
+      "id": "game_art",
+      "label": "Game Art",
+      "icon": "stadia_controller",
+      "strongKeywords": ["game art", "game asset"],
+      "keywords": ["game character", "environment art", "texture art", "sprite", "pixel art", "game ui", "concept art", "3d game asset"]
+    },
+    {
+      "id": "virtual_production",
+      "label": "Virtual Production",
+      "icon": "tv",
+      "strongKeywords": ["virtual production", "led volume"],
+      "keywords": ["unreal engine", "led wall", "virtual set", "in camera vfx", "vp stage", "real time rendering", "cinema virtual production"]
+    },
+    {
+      "id": "photography_editing",
+      "label": "Photo Editing",
+      "icon": "photo_filter",
+      "strongKeywords": ["photo editing", "lightroom editing"],
+      "keywords": ["lightroom", "photoshop", "raw edit", "retouching", "frequency separation", "photo manipulation", "preset", "skin retouch"]
+    },
+    {
+      "id": "drone_content",
+      "label": "Drone Content",
+      "icon": "flight",
+      "strongKeywords": ["drone footage", "drone videography"],
+      "keywords": ["drone", "fpv", "dji", "aerial shot", "drone cinematic", "drone pilot", "gopro fpv", "drone edit"]
+    },
+    {
+      "id": "livestreaming",
+      "label": "Live Streaming",
+      "icon": "live_tv",
+      "strongKeywords": ["live streaming", "stream setup"],
+      "keywords": ["obs studio", "twitch setup", "stream deck", "stream overlay", "live production", "streaming gear", "youtube live", "kick stream"]
+    },
+    {
+      "id": "content_creator_setup",
+      "label": "Creator Setups",
+      "icon": "desktop_windows",
+      "strongKeywords": ["creator setup", "youtube setup"],
+      "keywords": ["desk setup", "creator studio", "youtube gear", "content setup", "ring light", "microphone setup", "home studio", "creator tools"]
+    },
+    {
+      "id": "youtube_growth",
+      "label": "YouTube Growth",
+      "icon": "play_circle",
+      "strongKeywords": ["youtube growth", "youtube strategy"],
+      "keywords": ["youtube thumbnail", "youtube title", "watch time", "audience retention", "youtube shorts", "youtube analytics", "video ideas", "channel growth"]
+    },
+    {
+      "id": "short_form_content",
+      "label": "Short-Form Content",
+      "icon": "video_library",
+      "strongKeywords": ["short form content", "short-form video"],
+      "keywords": ["tiktok editing", "instagram reels", "youtube shorts", "viral hook", "content hook", "retention editing", "caption style", "short video"]
+    },
+    {
+      "id": "podcast_production",
+      "label": "Podcast Production",
+      "icon": "mic",
+      "strongKeywords": ["podcast production", "podcast editing"],
+      "keywords": ["podcast setup", "podcast microphone", "podcast clip", "podcast studio", "podcast intro", "podcast distribution", "rss feed"]
+    },
+    {
+      "id": "creative_coding",
+      "label": "Creative Coding",
+      "icon": "terminal",
+      "strongKeywords": ["creative coding", "generative art"],
+      "keywords": ["processing", "p5.js", "touchdesigner", "three.js", "shader", "webgl", "interactive art", "generative visuals", "creative technology"]
+    },
+    {
+      "id": "ar_vr_xr",
+      "label": "AR, VR & XR",
+      "icon": "view_in_ar",
+      "strongKeywords": ["augmented reality", "virtual reality"],
+      "keywords": ["ar filter", "vr experience", "mixed reality", "spatial computing", "meta quest", "vision pro", "immersive design", "xr development"]
+    },
+    {
+      "id": "creative_ai_tools",
+      "label": "Creative AI Tools",
+      "icon": "auto_awesome",
+      "strongKeywords": ["ai art tool", "ai video tool"],
+      "keywords": ["midjourney", "stable diffusion", "runway", "sora", "ai image", "ai video", "ai workflow", "generative design", "prompt for art"]
+    }
+  ]
+}

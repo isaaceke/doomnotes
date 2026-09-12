@@ -1,0 +1,202 @@
+{
+  "packId": "creatives",
+  "label": "Creatives",
+  "topics": [
+    {
+      "id": "graphic_design",
+      "label": "Graphic Design",
+      "icon": "brush",
+      "strongKeywords": ["graphic design", "brand design"],
+      "keywords": ["poster design", "layout", "typography", "adobe illustrator", "photoshop", "visual identity", "grid system", "logo design", "design inspiration"]
+    },
+    {
+      "id": "illustration",
+      "label": "Illustration",
+      "icon": "draw",
+      "strongKeywords": ["digital illustration", "illustration tutorial"],
+      "keywords": ["illustration", "drawing", "sketchbook", "procreate", "character art", "line art", "digital painting", "concept art", "art process"]
+    },
+    {
+      "id": "traditional_art",
+      "label": "Traditional Art",
+      "icon": "palette",
+      "strongKeywords": ["traditional art", "oil painting"],
+      "keywords": ["watercolor", "acrylic painting", "oil paint", "gouache", "charcoal", "pencil drawing", "canvas", "art supplies", "plein air"]
+    },
+    {
+      "id": "photography_creative",
+      "label": "Photography",
+      "icon": "photo_camera",
+      "strongKeywords": ["photography tutorial", "photo shoot"],
+      "keywords": ["portrait photography", "street photography", "film photography", "camera settings", "lighting setup", "lightroom edit", "photo composition", "35mm film"]
+    },
+    {
+      "id": "filmmaking",
+      "label": "Filmmaking",
+      "icon": "movie",
+      "strongKeywords": ["filmmaking", "film making"],
+      "keywords": ["cinematography", "film set", "director", "shot list", "storyboard", "camera movement", "short film", "b roll", "film lighting"]
+    },
+    {
+      "id": "screenwriting",
+      "label": "Screenwriting",
+      "icon": "description",
+      "strongKeywords": ["screenwriting", "screenplay"],
+      "keywords": ["script", "scene", "dialogue", "story structure", "three act structure", "character arc", "final draft", "film script", "plot point"]
+    },
+    {
+      "id": "creative_writing",
+      "label": "Creative Writing",
+      "icon": "edit_note",
+      "strongKeywords": ["creative writing", "writing prompt"],
+      "keywords": ["novel writing", "short story", "poetry", "worldbuilding", "writer advice", "character development", "plot twist", "writing routine", "manuscript"]
+    },
+    {
+      "id": "poetry",
+      "label": "Poetry",
+      "icon": "format_quote",
+      "strongKeywords": ["spoken word", "poetry reading"],
+      "keywords": ["poem", "poetry", "verse", "rhyme", "metaphor", "stanza", "haiku", "slam poetry", "poet"]
+    },
+    {
+      "id": "fashion_design",
+      "label": "Fashion Design",
+      "icon": "checkroom",
+      "strongKeywords": ["fashion design", "fashion sketch"],
+      "keywords": ["garment", "pattern making", "sewing", "textile", "fashion collection", "mood board", "couture", "fashion week", "fabric"]
+    },
+    {
+      "id": "interior_design",
+      "label": "Interior Design",
+      "icon": "chair",
+      "strongKeywords": ["interior design", "home decor"],
+      "keywords": ["room makeover", "space planning", "furniture", "interior styling", "color palette", "living room", "bedroom decor", "home aesthetic"]
+    },
+    {
+      "id": "architecture",
+      "label": "Architecture",
+      "icon": "account_balance",
+      "strongKeywords": ["architecture design", "architectural design"],
+      "keywords": ["building design", "floor plan", "architect", "facade", "urban design", "residential architecture", "interior architecture", "archviz"]
+    },
+    {
+      "id": "crafts_diy",
+      "label": "Crafts & DIY",
+      "icon": "handyman",
+      "strongKeywords": ["diy project", "craft tutorial"],
+      "keywords": ["craft", "handmade", "upcycle", "woodworking", "crochet", "knitting", "resin art", "jewelry making", "diy decor"]
+    },
+    {
+      "id": "ceramics_pottery",
+      "label": "Ceramics & Pottery",
+      "icon": "coffee",
+      "strongKeywords": ["pottery wheel", "ceramic art"],
+      "keywords": ["pottery", "ceramics", "clay", "wheel throwing", "glaze", "kiln", "hand building", "stoneware", "earthenware"]
+    },
+    {
+      "id": "calligraphy_lettering",
+      "label": "Calligraphy & Lettering",
+      "icon": "gesture",
+      "strongKeywords": ["hand lettering", "modern calligraphy"],
+      "keywords": ["calligraphy", "lettering", "brush pen", "type design", "font", "serif", "sans serif", "letterform", "handwritten"]
+    },
+    {
+      "id": "creative_business",
+      "label": "Creative Business",
+      "icon": "storefront",
+      "strongKeywords": ["creative business", "artist business"],
+      "keywords": ["art commission", "creative entrepreneur", "sell your art", "portfolio", "freelance creative", "creative client", "etsy shop", "art print"]
+    },
+    {
+      "id": "art_history",
+      "label": "Art History",
+      "icon": "museum",
+      "strongKeywords": ["art history", "art movement"],
+      "keywords": ["renaissance art", "modern art", "impressionism", "surrealism", "art museum", "art critic", "masterpiece", "art movement"]
+    },
+    {
+      "id": "animation",
+      "label": "Animation",
+      "icon": "animation",
+      "strongKeywords": ["animation tutorial", "2d animation"],
+      "keywords": ["animation", "animator", "character animation", "frame by frame", "storyboard", "animatic", "keyframe", "motion study"]
+    },
+    {
+      "id": "comic_manga",
+      "label": "Comics & Manga",
+      "icon": "auto_stories",
+      "strongKeywords": ["comic art", "manga art"],
+      "keywords": ["comic", "manga", "webtoon", "panel", "inking", "character sheet", "sequential art", "graphic novel", "webcomic"]
+    },
+    {
+      "id": "creative_inspiration",
+      "label": "Creative Inspiration",
+      "icon": "lightbulb",
+      "strongKeywords": ["creative inspiration", "artist inspiration"],
+      "keywords": ["moodboard", "creative block", "artist motivation", "inspiration", "creative routine", "visual reference", "art reference"]
+    },
+    {
+      "id": "art_portfolio",
+      "label": "Portfolio & Creative Career",
+      "icon": "folder_copy",
+      "strongKeywords": ["creative portfolio", "design portfolio"],
+      "keywords": ["behance", "dribbble", "portfolio review", "creative resume", "art school", "creative career", "portfolio website", "case study"]
+    },
+    {
+      "id": "sculpture",
+      "label": "Sculpture",
+      "icon": "view_in_ar",
+      "strongKeywords": ["sculpture art", "sculpting tutorial"],
+      "keywords": ["sculpture", "sculpting", "clay sculpture", "wood carving", "stone carving", "mixed media", "installation art", "3d sculpture"]
+    },
+    {
+      "id": "printmaking",
+      "label": "Printmaking",
+      "icon": "print",
+      "strongKeywords": ["printmaking", "screen printing"],
+      "keywords": ["linocut", "screenprint", "etching", "risograph", "silkscreen", "printing press", "art print", "block printing"]
+    },
+    {
+      "id": "jewelry_design",
+      "label": "Jewelry Design",
+      "icon": "diamond",
+      "strongKeywords": ["jewelry making", "jewellery making"],
+      "keywords": ["jewelry", "beading", "metalwork", "wire wrapping", "gemstone", "ring design", "necklace", "earrings", "handmade jewelry"]
+    },
+    {
+      "id": "floral_design",
+      "label": "Floral Design",
+      "icon": "local_florist",
+      "strongKeywords": ["floral design", "flower arrangement"],
+      "keywords": ["florist", "bouquet", "flower arrangement", "wedding flowers", "ikebana", "centerpiece", "flower styling"]
+    },
+    {
+      "id": "creative_direction",
+      "label": "Creative Direction",
+      "icon": "visibility",
+      "strongKeywords": ["creative direction", "art direction"],
+      "keywords": ["art director", "campaign concept", "visual campaign", "creative concept", "brand shoot", "editorial shoot", "visual storytelling"]
+    },
+    {
+      "id": "set_design",
+      "label": "Set & Production Design",
+      "icon": "theater_comedy",
+      "strongKeywords": ["production design", "set design"],
+      "keywords": ["film set design", "set decorator", "prop design", "stage design", "scenography", "theatre set", "production designer"]
+    },
+    {
+      "id": "dance_choreography",
+      "label": "Dance & Choreography",
+      "icon": "directions_run",
+      "strongKeywords": ["dance choreography", "dance routine"],
+      "keywords": ["dance", "choreography", "dance class", "freestyle", "hip hop dance", "ballet", "contemporary dance", "dance cover"]
+    },
+    {
+      "id": "theatre_performance",
+      "label": "Theatre & Performance",
+      "icon": "theater_comedy",
+      "strongKeywords": ["theatre performance", "acting class"],
+      "keywords": ["acting", "theatre", "stage performance", "monologue", "audition", "improv", "drama school", "character acting"]
+    }
+  ]
+}

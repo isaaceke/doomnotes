@@ -1,0 +1,174 @@
+{
+  "packId": "philosophy_psychology",
+  "label": "Philosophy, Psychology & Ideas",
+  "topics": [
+    {
+      "id": "stoicism",
+      "label": "Stoicism",
+      "icon": "self_improvement",
+      "strongKeywords": ["stoic philosophy", "marcus aurelius"],
+      "keywords": ["stoicism", "stoic", "seneca", "epictetus", "meditations", "dichotomy of control", "virtue", "memento mori", "amor fati"]
+    },
+    {
+      "id": "existentialism",
+      "label": "Existentialism",
+      "icon": "psychology",
+      "strongKeywords": ["existential philosophy", "existential crisis"],
+      "keywords": ["existentialism", "sartre", "camus", "kierkegaard", "absurdism", "meaning of life", "existential dread", "authenticity", "nihilism"]
+    },
+    {
+      "id": "ethics_morality",
+      "label": "Ethics & Morality",
+      "icon": "balance",
+      "strongKeywords": ["moral philosophy", "ethical dilemma"],
+      "keywords": ["ethics", "morality", "moral dilemma", "right and wrong", "utilitarianism", "deontology", "virtue ethics", "moral responsibility"]
+    },
+    {
+      "id": "logic_reasoning",
+      "label": "Logic & Reasoning",
+      "icon": "account_tree",
+      "strongKeywords": ["logical fallacy", "critical reasoning"],
+      "keywords": ["logic", "reasoning", "syllogism", "deduction", "induction", "logical fallacy", "argument", "premise", "conclusion", "validity"]
+    },
+    {
+      "id": "epistemology",
+      "label": "Knowledge & Truth",
+      "icon": "school",
+      "strongKeywords": ["theory of knowledge", "epistemology"],
+      "keywords": ["knowledge", "truth", "belief", "skepticism", "certainty", "evidence", "justified belief", "epistemology", "how do we know"]
+    },
+    {
+      "id": "metaphysics",
+      "label": "Metaphysics",
+      "icon": "all_inclusive",
+      "strongKeywords": ["metaphysics", "nature of reality"],
+      "keywords": ["metaphysics", "reality", "being", "existence", "consciousness", "free will", "determinism", "identity", "time", "universe"]
+    },
+    {
+      "id": "political_philosophy",
+      "label": "Political Philosophy",
+      "icon": "gavel",
+      "strongKeywords": ["political philosophy", "social contract"],
+      "keywords": ["social contract", "justice", "liberty", "equality", "rights", "power", "authority", "democracy", "liberalism", "conservatism"]
+    },
+    {
+      "id": "eastern_philosophy",
+      "label": "Eastern Philosophy",
+      "icon": "spa",
+      "strongKeywords": ["eastern philosophy", "tao te ching"],
+      "keywords": ["taoism", "buddhism", "zen", "confucius", "bhagavad gita", "dao", "wu wei", "karma", "dharma", "nonduality"]
+    },
+    {
+      "id": "religion_theology",
+      "label": "Religion & Theology",
+      "icon": "church",
+      "strongKeywords": ["religious philosophy", "theology"],
+      "keywords": ["theology", "faith", "scripture", "prayer", "god", "religion", "christianity", "islam", "judaism", "spirituality"]
+    },
+    {
+      "id": "consciousness",
+      "label": "Consciousness",
+      "icon": "neurology",
+      "strongKeywords": ["hard problem of consciousness", "conscious experience"],
+      "keywords": ["consciousness", "qualia", "mind body problem", "awareness", "self awareness", "subjective experience", "panpsychism", "meditation"]
+    },
+    {
+      "id": "psychology_basics",
+      "label": "Psychology",
+      "icon": "psychology_alt",
+      "strongKeywords": ["psychology explained", "psychology facts"],
+      "keywords": ["psychology", "behavior", "cognition", "emotion", "personality", "mental model", "human behavior", "psychological study"]
+    },
+    {
+      "id": "cognitive_biases",
+      "label": "Cognitive Biases",
+      "icon": "warning_amber",
+      "strongKeywords": ["cognitive bias", "thinking bias"],
+      "keywords": ["confirmation bias", "halo effect", "anchoring", "availability bias", "survivorship bias", "dunning kruger", "cognitive bias", "bias"]
+    },
+    {
+      "id": "behavioral_psychology",
+      "label": "Behavioral Psychology",
+      "icon": "directions_run",
+      "strongKeywords": ["behavioral psychology", "behavior change"],
+      "keywords": ["habit loop", "conditioning", "dopamine", "reinforcement", "behavior change", "behavioral science", "motivation", "reward system"]
+    },
+    {
+      "id": "attachment_relationships",
+      "label": "Attachment & Relationships",
+      "icon": "favorite",
+      "strongKeywords": ["attachment theory", "attachment style"],
+      "keywords": ["attachment style", "secure attachment", "anxious attachment", "avoidant attachment", "relationship psychology", "emotional intimacy"]
+    },
+    {
+      "id": "emotional_regulation",
+      "label": "Emotional Regulation",
+      "icon": "favorite_border",
+      "strongKeywords": ["emotional regulation", "nervous system regulation"],
+      "keywords": ["emotional regulation", "self soothing", "triggered", "nervous system", "coping skill", "emotional resilience", "grounding technique"]
+    },
+    {
+      "id": "mental_models",
+      "label": "Mental Models",
+      "icon": "schema",
+      "strongKeywords": ["mental model", "first principles"],
+      "keywords": ["first principles", "inversion", "second order thinking", "mental model", "systems thinking", "decision making", "latticework"]
+    },
+    {
+      "id": "self_improvement_ideas",
+      "label": "Self-Improvement Ideas",
+      "icon": "trending_up",
+      "strongKeywords": ["personal growth", "self improvement"],
+      "keywords": ["self improvement", "personal growth", "discipline", "identity change", "life advice", "better habits", "growth mindset", "motivation"]
+    },
+    {
+      "id": "meaning_purpose",
+      "label": "Meaning & Purpose",
+      "icon": "explore",
+      "strongKeywords": ["life purpose", "meaning of life"],
+      "keywords": ["purpose", "meaning", "fulfillment", "calling", "life direction", "values", "legacy", "what matters", "meaningful life"]
+    },
+    {
+      "id": "social_commentary",
+      "label": "Social Commentary",
+      "icon": "forum",
+      "strongKeywords": ["social commentary", "cultural commentary"],
+      "keywords": ["society", "culture", "modern life", "social issue", "social critique", "cultural analysis", "internet culture", "social trend"]
+    },
+    {
+      "id": "history_of_ideas",
+      "label": "History of Ideas",
+      "icon": "history_edu",
+      "strongKeywords": ["history of philosophy", "philosopher explained"],
+      "keywords": ["plato", "aristotle", "nietzsche", "descartes", "kant", "hegel", "socrates", "philosopher", "history of ideas"]
+    },
+    {
+      "id": "paradoxes_thought_experiments",
+      "label": "Paradoxes & Thought Experiments",
+      "icon": "question_mark",
+      "strongKeywords": ["thought experiment", "philosophical paradox"],
+      "keywords": ["paradox", "ship of theseus", "trolley problem", "simulation theory", "brain in a vat", "thought experiment", "zeno paradox"]
+    },
+    {
+      "id": "dreams_symbolism",
+      "label": "Dreams & Symbolism",
+      "icon": "bedtime",
+      "strongKeywords": ["dream interpretation", "dream symbolism"],
+      "keywords": ["dream meaning", "lucid dreaming", "dream journal", "symbolism", "archetype", "collective unconscious", "jung"]
+    },
+    {
+      "id": "meditation_mindfulness",
+      "label": "Meditation & Mindfulness",
+      "icon": "self_improvement",
+      "strongKeywords": ["mindfulness practice", "meditation practice"],
+      "keywords": ["meditation", "mindfulness", "breathwork", "present moment", "guided meditation", "inner peace", "awareness practice"]
+    },
+    {
+      "id": "philosophy_books",
+      "label": "Philosophy Books & Essays",
+      "icon": "menu_book",
+      "strongKeywords": ["philosophy book", "philosophy reading"],
+      "keywords": ["philosophy book", "essay", "book recommendation", "philosophy reading list", "classic text", "audiobook philosophy"]
+    }
+  ]
+}

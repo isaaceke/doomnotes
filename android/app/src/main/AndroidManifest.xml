@@ -1,0 +1,104 @@
+<!-- DOOMNOTES - Android Manifest -->
+<!-- Purpose: Declares app permissions, activities, and share intent receiver -->
+<!-- App Store Compliance: Google Play requires proper intent filters for share receivers -->
+<!-- Privacy: Only requests necessary permissions (INTERNET for transcription API) -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Required permissions -->
+
+    <!-- Internet: needed once cloud sync (Firebase) is enabled; harmless if unused. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Network state: used by connectivity_plus once cloud sync is enabled. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Some versions of the receive_sharing_intent plugin need this on
+         older Android to read a shared file's content; scoped storage on
+         Android 13+ replaces it, so it's capped at API 32 (Android 12L)
+         rather than granted unconditionally. -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+
+    <!-- Removed: RECEIVE_BOOT_COMPLETED, VIBRATE, FOREGROUND_SERVICE,
+         POST_NOTIFICATIONS. Nothing in the shipped app runs a background
+         service, schedules a boot-time task, or posts notifications — these
+         were left over from an abandoned always-on transcription/sync design.
+         Unused sensitive permissions (especially boot-completed and
+         foreground-service) invite extra Play Store scrutiny, so they were
+         removed. Re-add only if you actually implement the feature that
+         needs them. -->
+    
+    <!-- Application configuration -->
+    <application
+        android:label="DoomNotes"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true"
+        android:fullBackupOnly="true"
+        android:enableOnBackInvokedCallback="true">
+        
+        <!-- Main Flutter activity.
+             The share intent-filters live here (not on a separate activity)
+             because the app uses the `receive_sharing_intent` plugin, which
+             listens on the launcher activity itself. An earlier draft routed
+             shares to a standalone ShareReceiverActivity using a hand-rolled
+             MethodChannel that no Dart code ever called — that activity has
+             been removed (see _legacy_drafts/). Before shipping, double-check
+             this block against the current receive_sharing_intent README on
+             pub.dev, since exact manifest requirements can shift between
+             plugin versions. -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+
+            <!-- Main launcher intent -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+            <!-- Receive shared text/URLs (e.g. from TikTok, Instagram) -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Don't delete Flutter's tool-generated metadata -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+        
+        <!-- Provider for file sharing (if needed) -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <paths>
+                <cache-path name="cache" path="." />
+                <files-path name="files" path="." />
+            </paths>
+        </provider>
+        
+    </application>
+    
+    <!-- Queries for Android 11+ package visibility -->
+    <!-- Required to check if Instagram and other apps are installed -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" />
+        </intent>
+        <package android:name="com.instagram.android" />
+        <package android:name="com.zhiliaoapp.musically" />
+        <package android:name="com.google.android.youtube" />
+    </queries>
+    
+</manifest>

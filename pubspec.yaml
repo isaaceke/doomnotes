@@ -1,0 +1,57 @@
+name: doomnotes
+description: "Save from TikTok, YouTube, Instagram. Organized by topic. One tap back to source."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Local database
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.0
+
+  # Share & links
+  receive_sharing_intent: ^1.5.0
+  share_plus: ^9.0.0
+  url_launcher: ^6.3.2
+
+  # Settings & version
+  shared_preferences: ^2.5.5
+  package_info_plus: ^9.0.0
+
+  # File picker for export/import
+  file_picker: ^8.0.0
+
+  # UI helpers
+  cupertino_icons: ^1.0.9
+
+  # --- Cloud sync & accounts (Firebase) -----------------------------------
+  # Wired into main.dart behind a Settings toggle (off by default) — see
+  # docs/ENABLE_CLOUD_SYNC.md. Safe to leave these here even if you never
+  # turn it on: Firebase is never touched unless the toggle is on AND
+  # lib/firebase_options.dart has been replaced with real values.
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+  google_sign_in: ^6.2.1
+  sign_in_with_apple: ^6.1.0
+  crypto: ^3.0.3
+  connectivity_plus: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  isar_generator: ^3.1.0+1
+  build_runner: any
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/topic_packs/

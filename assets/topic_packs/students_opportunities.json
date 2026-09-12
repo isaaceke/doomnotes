@@ -1,0 +1,202 @@
+{
+  "packId": "students_opportunities",
+  "label": "Students & Opportunities",
+  "topics": [
+    {
+      "id": "scholarships",
+      "label": "Scholarships",
+      "icon": "school",
+      "strongKeywords": ["fully funded scholarship", "scholarship application"],
+      "keywords": ["scholarship", "fully funded", "tuition", "financial aid", "scholarship deadline", "scholarship essay", "merit scholarship", "need based"]
+    },
+    {
+      "id": "grants_funding",
+      "label": "Grants & Funding",
+      "icon": "payments",
+      "strongKeywords": ["student grant", "education grant"],
+      "keywords": ["grant", "funding opportunity", "stipend", "bursary", "financial support", "student funding", "research funding", "award"]
+    },
+    {
+      "id": "study_abroad",
+      "label": "Study Abroad",
+      "icon": "public",
+      "strongKeywords": ["study abroad", "international student"],
+      "keywords": ["study abroad", "international student", "student visa", "exchange program", "foreign university", "overseas study", "study in"]
+    },
+    {
+      "id": "admissions",
+      "label": "College & University Admissions",
+      "icon": "account_balance",
+      "strongKeywords": ["college admission", "university application"],
+      "keywords": ["admission", "application essay", "personal statement", "common app", "acceptance letter", "university application", "entry requirement"]
+    },
+    {
+      "id": "test_prep",
+      "label": "Test Preparation",
+      "icon": "quiz",
+      "strongKeywords": ["exam preparation", "test prep"],
+      "keywords": ["sat", "act", "gre", "gmat", "ielts", "toefl", "waec", "jamb", "exam tips", "mock test", "past questions"]
+    },
+    {
+      "id": "study_tips",
+      "label": "Study Tips",
+      "icon": "auto_stories",
+      "strongKeywords": ["study tips", "study method"],
+      "keywords": ["active recall", "spaced repetition", "pomodoro", "study routine", "note taking", "study with me", "revision", "flashcards"]
+    },
+    {
+      "id": "academic_writing",
+      "label": "Academic Writing",
+      "icon": "edit_document",
+      "strongKeywords": ["academic writing", "research paper"],
+      "keywords": ["essay writing", "research paper", "citation", "apa style", "mla style", "literature review", "thesis statement", "plagiarism"]
+    },
+    {
+      "id": "research_opportunities",
+      "label": "Research Opportunities",
+      "icon": "science",
+      "strongKeywords": ["research internship", "research opportunity"],
+      "keywords": ["research assistant", "research lab", "undergraduate research", "research fellowship", "academic conference", "research proposal"]
+    },
+    {
+      "id": "internships_students",
+      "label": "Student Internships",
+      "icon": "business_center",
+      "strongKeywords": ["student internship", "internship opportunity"],
+      "keywords": ["internship", "summer internship", "graduate internship", "industrial training", "siwes", "intern role", "internship application"]
+    },
+    {
+      "id": "student_remote_jobs",
+      "label": "Remote Jobs for Students",
+      "icon": "laptop_mac",
+      "strongKeywords": ["remote job for students", "student remote work"],
+      "keywords": ["remote job", "work from home", "part time remote", "student job", "virtual assistant", "online work", "remote internship"]
+    },
+    {
+      "id": "student_side_hustles",
+      "label": "Student Side Hustles",
+      "icon": "bolt",
+      "strongKeywords": ["student side hustle", "make money as a student"],
+      "keywords": ["side hustle", "student income", "freelance student", "online income", "campus job", "tutoring job", "sell digital products"]
+    },
+    {
+      "id": "student_tech_skills",
+      "label": "Student Tech Skills",
+      "icon": "computer",
+      "strongKeywords": ["learn to code", "tech skills for students"],
+      "keywords": ["coding bootcamp", "learn python", "learn excel", "data analysis", "tech course", "digital skill", "portfolio project"]
+    },
+    {
+      "id": "student_productivity",
+      "label": "Student Productivity",
+      "icon": "task_alt",
+      "strongKeywords": ["student productivity", "productive student"],
+      "keywords": ["study planner", "time blocking", "notion for students", "study schedule", "assignment planner", "productive day", "focus tips"]
+    },
+    {
+      "id": "student_mental_health",
+      "label": "Student Mental Health",
+      "icon": "favorite_border",
+      "strongKeywords": ["student mental health", "college mental health"],
+      "keywords": ["academic burnout", "exam anxiety", "student stress", "campus counseling", "imposter syndrome", "study stress"]
+    },
+    {
+      "id": "campus_life",
+      "label": "Campus Life",
+      "icon": "groups",
+      "strongKeywords": ["college life", "university life"],
+      "keywords": ["campus life", "hostel life", "dorm room", "student society", "freshers week", "college vlog", "university vlog"]
+    },
+    {
+      "id": "student_accommodation",
+      "label": "Student Accommodation",
+      "icon": "home",
+      "strongKeywords": ["student housing", "student accommodation"],
+      "keywords": ["student housing", "dorm", "hostel", "roommate", "rent near campus", "off campus housing", "student apartment"]
+    },
+    {
+      "id": "student_visas",
+      "label": "Student Visas & Immigration",
+      "icon": "badge",
+      "strongKeywords": ["student visa", "study permit"],
+      "keywords": ["study permit", "visa interview", "student visa application", "visa requirements", "immigration update", "proof of funds"]
+    },
+    {
+      "id": "language_tests",
+      "label": "Language Tests",
+      "icon": "translate",
+      "strongKeywords": ["ielts preparation", "toefl preparation"],
+      "keywords": ["ielts", "toefl", "duolingo english test", "pte", "band score", "speaking test", "writing task", "language proficiency"]
+    },
+    {
+      "id": "student_finance",
+      "label": "Student Finance & Budgeting",
+      "icon": "account_balance_wallet",
+      "strongKeywords": ["student budget", "student finance"],
+      "keywords": ["student budget", "tuition fee", "living expenses", "student loan", "budget student", "save money at college", "financial aid"]
+    },
+    {
+      "id": "student_entrepreneurship",
+      "label": "Student Entrepreneurship",
+      "icon": "store",
+      "strongKeywords": ["student entrepreneur", "student startup"],
+      "keywords": ["student startup", "campus business", "business competition", "pitch competition", "young entrepreneur", "startup grant"]
+    },
+    {
+      "id": "competitions_hackathons",
+      "label": "Competitions & Hackathons",
+      "icon": "emoji_events",
+      "strongKeywords": ["hackathon", "case competition"],
+      "keywords": ["hackathon", "coding competition", "case competition", "innovation challenge", "student competition", "datathon", "pitch contest"]
+    },
+    {
+      "id": "volunteering_fellowships",
+      "label": "Volunteering & Fellowships",
+      "icon": "volunteer_activism",
+      "strongKeywords": ["student fellowship", "volunteer opportunity"],
+      "keywords": ["fellowship", "volunteer", "youth program", "leadership program", "community service", "exchange fellowship", "ambassador program"]
+    },
+    {
+      "id": "student_sports",
+      "label": "Student Sports Opportunities",
+      "icon": "sports_soccer",
+      "strongKeywords": ["sports scholarship", "student athlete"],
+      "keywords": ["sports scholarship", "student athlete", "college sports", "athletic recruitment", "tryout", "sports team", "football scholarship"]
+    },
+    {
+      "id": "graduate_school",
+      "label": "Graduate School",
+      "icon": "school",
+      "strongKeywords": ["masters application", "phd application"],
+      "keywords": ["masters degree", "phd", "graduate school", "statement of purpose", "research supervisor", "graduate assistantship", "phd funding"]
+    },
+    {
+      "id": "career_fairs_networking",
+      "label": "Career Fairs & Networking",
+      "icon": "handshake",
+      "strongKeywords": ["career fair", "student networking"],
+      "keywords": ["career fair", "networking event", "linkedin student", "alumni network", "recruiter event", "career talk", "professional networking"]
+    },
+    {
+      "id": "online_courses_certifications",
+      "label": "Courses & Certifications",
+      "icon": "verified",
+      "strongKeywords": ["free online course", "professional certificate"],
+      "keywords": ["coursera", "udemy", "edx", "google certificate", "aws certification", "free course", "online certificate", "course scholarship"]
+    },
+    {
+      "id": "student_discounts",
+      "label": "Student Discounts & Resources",
+      "icon": "local_offer",
+      "strongKeywords": ["student discount", "free for students"],
+      "keywords": ["student discount", "free student software", "student deal", "student offer", "education pricing", "student resource"]
+    },
+    {
+      "id": "study_tools",
+      "label": "Study Tools & Apps",
+      "icon": "apps",
+      "strongKeywords": ["study app", "student app"],
+      "keywords": ["notion", "obsidian", "anki", "quizlet", "google scholar", "zotero", "grammarly", "study app", "flashcard app"]
+    }
+  ]
+}

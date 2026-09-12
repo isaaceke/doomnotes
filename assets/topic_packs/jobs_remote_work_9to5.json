@@ -1,0 +1,216 @@
+{
+  "packId": "jobs_remote_work_9to5",
+  "label": "Jobs, Remote Work & 9-to-5",
+  "topics": [
+    {
+      "id": "job_search",
+      "label": "Job Search",
+      "icon": "search",
+      "strongKeywords": ["job search", "hiring now"],
+      "keywords": ["job opening", "job vacancy", "now hiring", "job board", "job application", "career opportunity", "apply now", "recruiter"]
+    },
+    {
+      "id": "remote_jobs",
+      "label": "Remote Jobs",
+      "icon": "home_work",
+      "strongKeywords": ["remote jobs", "work from home job"],
+      "keywords": ["remote work", "work from home", "fully remote", "remote hiring", "distributed team", "remote position", "wfh job"]
+    },
+    {
+      "id": "hybrid_work",
+      "label": "Hybrid Work",
+      "icon": "location_city",
+      "strongKeywords": ["hybrid work", "hybrid job"],
+      "keywords": ["hybrid role", "return to office", "office days", "flexible work", "hybrid schedule", "workplace policy"]
+    },
+    {
+      "id": "resume_cv",
+      "label": "Resume & CV",
+      "icon": "article",
+      "strongKeywords": ["resume tips", "cv tips"],
+      "keywords": ["resume", "curriculum vitae", "cv", "ats resume", "resume template", "resume review", "resume bullet", "job cv"]
+    },
+    {
+      "id": "cover_letters",
+      "label": "Cover Letters & Applications",
+      "icon": "mail",
+      "strongKeywords": ["cover letter", "job application letter"],
+      "keywords": ["cover letter", "application letter", "job application", "application form", "application tracker", "tailor your resume"]
+    },
+    {
+      "id": "interview_prep",
+      "label": "Interview Preparation",
+      "icon": "record_voice_over",
+      "strongKeywords": ["interview tips", "job interview"],
+      "keywords": ["interview question", "behavioral interview", "tell me about yourself", "salary expectation", "mock interview", "interview prep"]
+    },
+    {
+      "id": "salary_negotiation",
+      "label": "Salary & Negotiation",
+      "icon": "request_quote",
+      "strongKeywords": ["salary negotiation", "negotiate salary"],
+      "keywords": ["salary", "compensation", "pay raise", "negotiate offer", "job offer", "benefits package", "salary range", "counter offer"]
+    },
+    {
+      "id": "linkedin_career",
+      "label": "LinkedIn & Personal Brand",
+      "icon": "badge",
+      "strongKeywords": ["linkedin tips", "linkedin profile"],
+      "keywords": ["linkedin profile", "linkedin post", "linkedin headline", "networking on linkedin", "professional brand", "thought leadership"]
+    },
+    {
+      "id": "freelancing",
+      "label": "Freelancing",
+      "icon": "laptop",
+      "strongKeywords": ["freelance job", "freelance client"],
+      "keywords": ["freelancer", "upwork", "fiverr", "client work", "freelance rate", "freelance proposal", "contract work", "gig work"]
+    },
+    {
+      "id": "virtual_assistant",
+      "label": "Virtual Assistant Work",
+      "icon": "support_agent",
+      "strongKeywords": ["virtual assistant job", "become a virtual assistant"],
+      "keywords": ["virtual assistant", "va job", "admin support", "calendar management", "client inbox", "remote assistant", "executive assistant"]
+    },
+    {
+      "id": "customer_support_jobs",
+      "label": "Customer Support Jobs",
+      "icon": "headset_mic",
+      "strongKeywords": ["customer support job", "customer service job"],
+      "keywords": ["customer support", "customer service", "support agent", "call center", "help desk", "live chat support", "technical support"]
+    },
+    {
+      "id": "tech_jobs",
+      "label": "Tech Jobs",
+      "icon": "computer",
+      "strongKeywords": ["tech jobs", "software engineer job"],
+      "keywords": ["developer job", "software engineer", "data analyst job", "product manager job", "ux designer job", "tech recruiter", "engineering role"]
+    },
+    {
+      "id": "creative_jobs",
+      "label": "Creative Jobs",
+      "icon": "brush",
+      "strongKeywords": ["creative job", "design job"],
+      "keywords": ["graphic design job", "video editor job", "photographer job", "creative director", "copywriter job", "social media job"]
+    },
+    {
+      "id": "healthcare_jobs",
+      "label": "Healthcare Jobs",
+      "icon": "medical_services",
+      "strongKeywords": ["healthcare jobs", "medical job"],
+      "keywords": ["nurse job", "healthcare career", "medical assistant", "clinical role", "hospital hiring", "health job"]
+    },
+    {
+      "id": "government_jobs",
+      "label": "Government Jobs",
+      "icon": "account_balance",
+      "strongKeywords": ["government jobs", "civil service job"],
+      "keywords": ["public service job", "civil service", "government vacancy", "federal job", "state job", "public sector career"]
+    },
+    {
+      "id": "ngo_jobs",
+      "label": "NGO & Development Jobs",
+      "icon": "public",
+      "strongKeywords": ["ngo job", "development job"],
+      "keywords": ["ngo vacancy", "nonprofit job", "development sector", "humanitarian job", "un jobs", "international development", "program officer"]
+    },
+    {
+      "id": "workplace_productivity",
+      "label": "Workplace Productivity",
+      "icon": "task_alt",
+      "strongKeywords": ["work productivity", "office productivity"],
+      "keywords": ["work routine", "time management at work", "deep work", "meeting management", "workload", "work smarter", "office productivity"]
+    },
+    {
+      "id": "office_politics",
+      "label": "Office Politics",
+      "icon": "groups",
+      "strongKeywords": ["office politics", "workplace politics"],
+      "keywords": ["toxic workplace", "difficult coworker", "manager issues", "workplace conflict", "corporate politics", "work boundaries", "office drama"]
+    },
+    {
+      "id": "career_growth",
+      "label": "Career Growth & Promotions",
+      "icon": "trending_up",
+      "strongKeywords": ["career growth", "get promoted"],
+      "keywords": ["promotion", "career development", "performance review", "professional development", "career path", "leadership skill", "career advice"]
+    },
+    {
+      "id": "workplace_communication",
+      "label": "Workplace Communication",
+      "icon": "forum",
+      "strongKeywords": ["workplace communication", "professional communication"],
+      "keywords": ["work email", "slack message", "meeting communication", "feedback at work", "assertive communication", "professional email"]
+    },
+    {
+      "id": "management_leadership",
+      "label": "Management & Leadership",
+      "icon": "groups_2",
+      "strongKeywords": ["people management", "new manager"],
+      "keywords": ["manager", "team leadership", "one on one", "delegation", "employee feedback", "team management", "leadership at work"]
+    },
+    {
+      "id": "workplace_rights",
+      "label": "Workplace Rights",
+      "icon": "gavel",
+      "strongKeywords": ["employment rights", "labor rights"],
+      "keywords": ["employment law", "labor law", "worker rights", "wrongful termination", "workplace discrimination", "leave policy", "employment contract"]
+    },
+    {
+      "id": "workplace_wellbeing",
+      "label": "Workplace Wellbeing",
+      "icon": "favorite",
+      "strongKeywords": ["workplace burnout", "burnout recovery"],
+      "keywords": ["burnout", "work stress", "work life balance", "mental health at work", "career burnout", "work anxiety", "rest day"]
+    },
+    {
+      "id": "digital_nomad",
+      "label": "Digital Nomad Life",
+      "icon": "flight",
+      "strongKeywords": ["digital nomad", "work while traveling"],
+      "keywords": ["remote travel", "workation", "nomad visa", "coworking space", "remote lifestyle", "travel while working"]
+    },
+    {
+      "id": "job_alerts_updates",
+      "label": "Job Alerts & Updates",
+      "icon": "notifications_active",
+      "strongKeywords": ["job alert", "hiring update"],
+      "keywords": ["hiring update", "vacancy update", "job alert", "jobs this week", "recruitment update", "open roles", "career update"]
+    },
+    {
+      "id": "professional_certifications",
+      "label": "Professional Certifications",
+      "icon": "workspace_premium",
+      "strongKeywords": ["professional certification", "career certificate"],
+      "keywords": ["certificate", "certification", "pmp", "scrum master", "aws certified", "google certificate", "professional course", "upskill"]
+    },
+    {
+      "id": "career_change",
+      "label": "Career Change",
+      "icon": "sync_alt",
+      "strongKeywords": ["career change", "switch careers"],
+      "keywords": ["career switch", "transition career", "new career", "career pivot", "reskill", "upskill", "leave corporate", "start over"]
+    },
+    {
+      "id": "workplace_tools",
+      "label": "Workplace Tools",
+      "icon": "apps",
+      "strongKeywords": ["work tools", "productivity tools"],
+      "keywords": ["notion", "slack", "microsoft teams", "google workspace", "asana", "trello", "clickup", "monday.com", "work automation"]
+    },
+    {
+      "id": "corporate_life",
+      "label": "Corporate Life",
+      "icon": "business",
+      "strongKeywords": ["corporate life", "9 to 5"],
+      "keywords": ["9 to 5", "office life", "corporate job", "corporate girl", "commute to work", "day at work", "work vlog", "desk job"]
+    },
+    {
+      "id": "entrepreneurship_career",
+      "label": "Entrepreneurship & Side Business",
+      "icon": "storefront",
+      "strongKeywords": ["start a business", "side business"],
+      "keywords": ["business idea", "entrepreneur", "start a business", "side hustle", "small business", "business owner", "solopreneur"]
+    }
+  ]
+}

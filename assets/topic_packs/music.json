@@ -1,0 +1,216 @@
+{
+  "packId": "music",
+  "label": "Music",
+  "topics": [
+    {
+      "id": "new_music_releases",
+      "label": "New Music & Releases",
+      "icon": "new_releases",
+      "strongKeywords": ["new music", "new release"],
+      "keywords": ["new album", "new single", "album release", "ep release", "music release", "out now", "new song", "release date"]
+    },
+    {
+      "id": "music_discovery",
+      "label": "Music Discovery",
+      "icon": "explore",
+      "strongKeywords": ["music recommendation", "songs you need"],
+      "keywords": ["music discovery", "song recommendation", "playlist", "hidden gem", "underrated artist", "songs to listen to", "music taste"]
+    },
+    {
+      "id": "hip_hop_rap",
+      "label": "Hip-Hop & Rap",
+      "icon": "mic",
+      "strongKeywords": ["hip hop", "rap music"],
+      "keywords": ["rapper", "rap", "hip hop", "bars", "freestyle", "drill", "trap", "cypher", "diss track", "rap album"]
+    },
+    {
+      "id": "afrobeats",
+      "label": "Afrobeats",
+      "icon": "music_note",
+      "strongKeywords": ["afrobeats", "afro beats"],
+      "keywords": ["afrobeats", "afropop", "afro fusion", "amapiano", "naija music", "african music", "afrobeats artist", "afrobeats dance"]
+    },
+    {
+      "id": "rnb_soul",
+      "label": "R&B & Soul",
+      "icon": "graphic_eq",
+      "strongKeywords": ["r and b", "rnb music"],
+      "keywords": ["rnb", "r&b", "soul music", "neo soul", "slow jam", "vocal run", "singer", "love song"]
+    },
+    {
+      "id": "pop_music",
+      "label": "Pop Music",
+      "icon": "star",
+      "strongKeywords": ["pop music", "pop artist"],
+      "keywords": ["pop song", "pop album", "pop star", "chart music", "radio hit", "catchy chorus", "music video"]
+    },
+    {
+      "id": "rock_alternative",
+      "label": "Rock & Alternative",
+      "icon": "electric_guitar",
+      "strongKeywords": ["rock music", "alternative music"],
+      "keywords": ["rock band", "indie rock", "alternative rock", "punk", "metal", "guitar riff", "live band", "rock album"]
+    },
+    {
+      "id": "electronic_edm",
+      "label": "Electronic & EDM",
+      "icon": "equalizer",
+      "strongKeywords": ["electronic music", "edm music"],
+      "keywords": ["edm", "house music", "techno", "dance music", "dj set", "electronic producer", "festival set", "club music"]
+    },
+    {
+      "id": "gospel_christian_music",
+      "label": "Gospel & Christian Music",
+      "icon": "church",
+      "strongKeywords": ["gospel music", "christian music"],
+      "keywords": ["worship", "praise", "gospel song", "church music", "christian artist", "worship set", "choir", "faith music"]
+    },
+    {
+      "id": "jazz_blues",
+      "label": "Jazz & Blues",
+      "icon": "piano",
+      "strongKeywords": ["jazz music", "blues music"],
+      "keywords": ["jazz", "blues", "saxophone", "improvisation", "jazz standard", "jazz piano", "swing", "bebop"]
+    },
+    {
+      "id": "classical_orchestral",
+      "label": "Classical & Orchestral",
+      "icon": "music_note",
+      "strongKeywords": ["classical music", "orchestra performance"],
+      "keywords": ["classical", "orchestra", "symphony", "composer", "violin concerto", "piano concerto", "opera", "chamber music"]
+    },
+    {
+      "id": "indie_music",
+      "label": "Indie Music",
+      "icon": "album",
+      "strongKeywords": ["indie music", "independent artist"],
+      "keywords": ["indie artist", "bedroom pop", "independent musician", "indie band", "alternative pop", "indie release"]
+    },
+    {
+      "id": "music_production",
+      "label": "Music Production",
+      "icon": "tune",
+      "strongKeywords": ["music production", "beat making"],
+      "keywords": ["beat", "producer", "fl studio", "ableton", "logic pro", "music producer", "beatmaking", "sample flip", "drum pattern"]
+    },
+    {
+      "id": "songwriting",
+      "label": "Songwriting",
+      "icon": "edit_note",
+      "strongKeywords": ["songwriting tips", "write a song"],
+      "keywords": ["songwriting", "lyrics", "chorus", "verse", "bridge", "melody writing", "song idea", "song structure", "topline"]
+    },
+    {
+      "id": "vocals_singing",
+      "label": "Vocals & Singing",
+      "icon": "record_voice_over",
+      "strongKeywords": ["singing tips", "vocal training"],
+      "keywords": ["vocal warmup", "singing", "voice lesson", "vocal run", "mixed voice", "head voice", "chest voice", "vocal coach"]
+    },
+    {
+      "id": "guitar",
+      "label": "Guitar",
+      "icon": "music_note",
+      "strongKeywords": ["guitar lesson", "guitar tutorial"],
+      "keywords": ["guitar", "guitar chord", "guitar riff", "acoustic guitar", "electric guitar", "guitar solo", "fingerstyle", "guitar pedal"]
+    },
+    {
+      "id": "piano_keys",
+      "label": "Piano & Keys",
+      "icon": "piano",
+      "strongKeywords": ["piano tutorial", "keyboard tutorial"],
+      "keywords": ["piano", "keyboard", "piano chord", "piano cover", "keyboard player", "music theory piano", "piano lesson"]
+    },
+    {
+      "id": "drums_percussion",
+      "label": "Drums & Percussion",
+      "icon": "album",
+      "strongKeywords": ["drum lesson", "drum cover"],
+      "keywords": ["drums", "drummer", "drum beat", "drum fill", "percussion", "snare", "kick drum", "drum groove"]
+    },
+    {
+      "id": "djing",
+      "label": "DJing",
+      "icon": "headphones",
+      "strongKeywords": ["dj tutorial", "dj set"],
+      "keywords": ["dj", "mixing music", "dj set", "turntable", "serato", "rekordbox", "dj controller", "beatmatch", "transition mix"]
+    },
+    {
+      "id": "mixing_mastering",
+      "label": "Mixing & Mastering",
+      "icon": "graphic_eq",
+      "strongKeywords": ["mixing tutorial", "mastering tutorial"],
+      "keywords": ["mixing", "mastering", "eq", "compression", "limiter", "reverb", "vocal mix", "mix bus", "loudness"]
+    },
+    {
+      "id": "music_theory",
+      "label": "Music Theory",
+      "icon": "school",
+      "strongKeywords": ["music theory", "music theory explained"],
+      "keywords": ["chord progression", "scale", "key signature", "harmony", "melody", "rhythm", "circle of fifths", "music theory"]
+    },
+    {
+      "id": "live_music_concerts",
+      "label": "Live Music & Concerts",
+      "icon": "stadium",
+      "strongKeywords": ["live concert", "concert vlog"],
+      "keywords": ["concert", "music festival", "live performance", "tour dates", "festival lineup", "live show", "concert review"]
+    },
+    {
+      "id": "music_business",
+      "label": "Music Business",
+      "icon": "business",
+      "strongKeywords": ["music business", "independent artist business"],
+      "keywords": ["music distribution", "record deal", "music royalties", "publishing deal", "music marketing", "artist management", "streaming revenue"]
+    },
+    {
+      "id": "artist_marketing",
+      "label": "Artist Marketing",
+      "icon": "campaign",
+      "strongKeywords": ["music marketing", "artist marketing"],
+      "keywords": ["promote music", "release strategy", "artist branding", "grow your audience", "spotify promotion", "music content strategy"]
+    },
+    {
+      "id": "spotify_playlists",
+      "label": "Spotify & Playlists",
+      "icon": "queue_music",
+      "strongKeywords": ["spotify playlist", "spotify growth"],
+      "keywords": ["spotify", "playlist placement", "spotify for artists", "playlist pitch", "music streaming", "apple music", "editorial playlist"]
+    },
+    {
+      "id": "music_reactions_reviews",
+      "label": "Music Reactions & Reviews",
+      "icon": "rate_review",
+      "strongKeywords": ["album review", "music reaction"],
+      "keywords": ["music reaction", "album review", "song review", "first listen", "album breakdown", "tracklist review"]
+    },
+    {
+      "id": "music_history",
+      "label": "Music History",
+      "icon": "history",
+      "strongKeywords": ["music history", "artist history"],
+      "keywords": ["music history", "genre history", "artist documentary", "music culture", "classic album", "legendary artist"]
+    },
+    {
+      "id": "vinyl_collecting",
+      "label": "Vinyl & Music Collecting",
+      "icon": "album",
+      "strongKeywords": ["vinyl collection", "record collecting"],
+      "keywords": ["vinyl", "record player", "record collection", "turntable", "vinyl record", "crate digging", "physical media"]
+    },
+    {
+      "id": "music_memes_culture",
+      "label": "Music Memes & Culture",
+      "icon": "sentiment_very_satisfied",
+      "strongKeywords": ["music meme", "stan twitter"],
+      "keywords": ["music meme", "fan edit", "stan culture", "music twitter", "album era", "fandom", "music trend"]
+    },
+    {
+      "id": "african_music_industry",
+      "label": "African Music Industry",
+      "icon": "public",
+      "strongKeywords": ["african music industry", "afrobeats industry"],
+      "keywords": ["nigerian music industry", "afrobeats business", "african artist", "music royalty nigeria", "afrobeats label", "african music news"]
+    }
+  ]
+}

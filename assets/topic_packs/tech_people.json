@@ -1,0 +1,216 @@
+{
+  "packId": "tech_people",
+  "label": "People in Tech",
+  "topics": [
+    {
+      "id": "software_engineering",
+      "label": "Software Engineering",
+      "icon": "code",
+      "strongKeywords": ["software engineering", "software engineer", "system design"],
+      "keywords": ["code", "coding", "programming", "backend", "frontend", "full stack", "clean code", "architecture", "design pattern", "debugging", "pull request", "code review", "repository", "github"]
+    },
+    {
+      "id": "frontend_development",
+      "label": "Frontend Development",
+      "icon": "web",
+      "strongKeywords": ["frontend development", "front end development"],
+      "keywords": ["react", "next.js", "vue", "angular", "svelte", "html", "css", "tailwind", "typescript", "javascript", "web component", "responsive design", "browser", "dom"]
+    },
+    {
+      "id": "backend_development",
+      "label": "Backend Development",
+      "icon": "storage",
+      "strongKeywords": ["backend development", "back end development"],
+      "keywords": ["api", "rest api", "graphql", "server", "microservice", "database", "authentication", "authorization", "webhook", "queue", "redis", "postgres", "mysql", "node.js"]
+    },
+    {
+      "id": "mobile_development",
+      "label": "Mobile Development",
+      "icon": "phone_android",
+      "strongKeywords": ["mobile development", "ios development", "android development"],
+      "keywords": ["flutter", "dart", "swift", "swiftui", "kotlin", "jetpack compose", "react native", "app store", "play store", "mobile app", "firebase", "push notification"]
+    },
+    {
+      "id": "developer_tools",
+      "label": "Developer Tools",
+      "icon": "build",
+      "strongKeywords": ["developer tools", "devtools"],
+      "keywords": ["ide", "vs code", "cursor", "terminal", "cli", "sdk", "library", "framework", "package", "npm", "pip", "homebrew", "git", "github actions"]
+    },
+    {
+      "id": "ai_engineering",
+      "label": "AI Engineering",
+      "icon": "memory",
+      "strongKeywords": ["ai engineering", "llm engineering", "rag pipeline"],
+      "keywords": ["llm", "rag", "embedding", "inference", "fine tuning", "prompt engineering", "model serving", "vector database", "agent workflow", "evals", "token", "context window"]
+    },
+    {
+      "id": "machine_learning",
+      "label": "Machine Learning",
+      "icon": "psychology",
+      "strongKeywords": ["machine learning", "deep learning"],
+      "keywords": ["neural network", "model training", "dataset", "classification", "regression", "pytorch", "tensorflow", "scikit learn", "transformer", "computer vision", "nlp", "benchmark"]
+    },
+    {
+      "id": "data_science",
+      "label": "Data Science",
+      "icon": "query_stats",
+      "strongKeywords": ["data science", "data analysis"],
+      "keywords": ["python", "pandas", "jupyter", "sql", "dataframe", "statistics", "dashboard", "visualization", "tableau", "power bi", "hypothesis test", "analytics"]
+    },
+    {
+      "id": "data_engineering",
+      "label": "Data Engineering",
+      "icon": "account_tree",
+      "strongKeywords": ["data engineering", "data pipeline"],
+      "keywords": ["etl", "elt", "data warehouse", "data lake", "airflow", "dbt", "spark", "kafka", "snowflake", "bigquery", "redshift", "stream processing"]
+    },
+    {
+      "id": "devops_sre",
+      "label": "DevOps & SRE",
+      "icon": "settings",
+      "strongKeywords": ["site reliability engineering", "continuous deployment"],
+      "keywords": ["devops", "sre", "ci cd", "docker", "kubernetes", "terraform", "observability", "monitoring", "grafana", "prometheus", "incident response", "uptime"]
+    },
+    {
+      "id": "cloud_computing",
+      "label": "Cloud Computing",
+      "icon": "cloud",
+      "strongKeywords": ["cloud computing", "aws architecture"],
+      "keywords": ["aws", "azure", "google cloud", "gcp", "serverless", "lambda", "cloudflare", "cdn", "load balancer", "cloud storage", "cloud run", "vercel"]
+    },
+    {
+      "id": "cybersecurity",
+      "label": "Cybersecurity",
+      "icon": "security",
+      "strongKeywords": ["cyber security", "penetration testing"],
+      "keywords": ["security", "infosec", "vulnerability", "exploit", "ctf", "ethical hacking", "phishing", "malware", "ransomware", "zero day", "encryption", "owasp"]
+    },
+    {
+      "id": "privacy_security",
+      "label": "Digital Privacy",
+      "icon": "privacy_tip",
+      "strongKeywords": ["digital privacy", "data privacy"],
+      "keywords": ["privacy", "end to end encryption", "vpn", "password manager", "two factor authentication", "2fa", "data broker", "tracking", "surveillance", "privacy policy", "gdpr"]
+    },
+    {
+      "id": "open_source",
+      "label": "Open Source",
+      "icon": "hub",
+      "strongKeywords": ["open source", "open-source"],
+      "keywords": ["github repo", "pull request", "maintainer", "contributor", "license", "apache license", "mit license", "fork", "self hosted", "community project"]
+    },
+    {
+      "id": "startups",
+      "label": "Startups",
+      "icon": "rocket_launch",
+      "strongKeywords": ["startup founder", "venture backed"],
+      "keywords": ["startup", "founder", "cofounder", "product market fit", "pmf", "launch", "bootstrap", "accelerator", "yc", "venture capital", "seed round", "series a"]
+    },
+    {
+      "id": "saas",
+      "label": "SaaS",
+      "icon": "apps",
+      "strongKeywords": ["software as a service", "saas business"],
+      "keywords": ["saas", "mrr", "arr", "churn", "b2b", "subscription", "pricing page", "customer acquisition", "product led growth", "plg", "onboarding"]
+    },
+    {
+      "id": "product_management",
+      "label": "Product Management",
+      "icon": "inventory_2",
+      "strongKeywords": ["product management", "product manager"],
+      "keywords": ["product roadmap", "user story", "product strategy", "feature prioritization", "discovery", "mvp", "product launch", "north star metric", "user research"]
+    },
+    {
+      "id": "ux_ui_design",
+      "label": "UX & UI Design",
+      "icon": "design_services",
+      "strongKeywords": ["user experience", "user interface"],
+      "keywords": ["ux", "ui", "figma", "wireframe", "prototype", "design system", "usability", "accessibility", "user flow", "interaction design", "a b test"]
+    },
+    {
+      "id": "blockchain_web3",
+      "label": "Blockchain & Web3",
+      "icon": "token",
+      "strongKeywords": ["blockchain technology", "web3 development"],
+      "keywords": ["web3", "smart contract", "solidity", "ethereum", "bitcoin", "defi", "wallet", "dao", "token", "crypto protocol", "onchain"]
+    },
+    {
+      "id": "robotics_hardware",
+      "label": "Robotics & Hardware",
+      "icon": "precision_manufacturing",
+      "strongKeywords": ["robotics engineering", "embedded systems"],
+      "keywords": ["robotics", "arduino", "raspberry pi", "embedded", "microcontroller", "sensor", "pcb", "firmware", "3d printer", "drone", "hardware project"]
+    },
+    {
+      "id": "tech_news",
+      "label": "Tech News",
+      "icon": "newspaper",
+      "strongKeywords": ["tech news", "technology news"],
+      "keywords": ["product launch", "tech company", "silicon valley", "tech update", "new feature", "tech industry", "startup news", "developer news"]
+    },
+    {
+      "id": "gadgets_devices",
+      "label": "Gadgets & Devices",
+      "icon": "devices",
+      "strongKeywords": ["tech review", "gadget review"],
+      "keywords": ["smartphone", "laptop", "tablet", "smartwatch", "headphones", "camera gear", "gaming pc", "phone review", "unboxing", "tech setup"]
+    },
+    {
+      "id": "no_code_automation",
+      "label": "No-Code & Automation",
+      "icon": "bolt",
+      "strongKeywords": ["no code", "workflow automation"],
+      "keywords": ["zapier", "make.com", "n8n", "notion automation", "airtable", "bubble", "webflow", "automation workflow", "low code", "agent automation"]
+    },
+    {
+      "id": "tech_career",
+      "label": "Tech Careers",
+      "icon": "work",
+      "strongKeywords": ["tech career", "software engineer career"],
+      "keywords": ["tech jobs", "engineering interview", "leetcode", "system design interview", "portfolio project", "junior developer", "senior engineer", "faang", "tech recruiter"]
+    },
+    {
+      "id": "founder_building_public",
+      "label": "Building in Public",
+      "icon": "campaign",
+      "strongKeywords": ["building in public", "build in public"],
+      "keywords": ["indie hacker", "ship fast", "maker", "side project", "launch day", "founder journey", "startup metrics", "public roadmap", "makerlog"]
+    },
+    {
+      "id": "api_integrations",
+      "label": "APIs & Integrations",
+      "icon": "swap_horiz",
+      "strongKeywords": ["api integration", "rest api"],
+      "keywords": ["api", "webhook", "oauth", "jwt", "endpoint", "postman", "sdk", "integration", "rate limit", "api key", "graphql"]
+    },
+    {
+      "id": "databases",
+      "label": "Databases",
+      "icon": "dns",
+      "strongKeywords": ["database design", "database optimization"],
+      "keywords": ["postgresql", "mysql", "mongodb", "sqlite", "redis", "supabase", "firebase", "orm", "sql query", "database schema", "indexing"]
+    },
+    {
+      "id": "testing_quality",
+      "label": "Testing & Quality",
+      "icon": "fact_check",
+      "strongKeywords": ["software testing", "quality assurance"],
+      "keywords": ["unit test", "integration test", "end to end test", "e2e", "qa", "test automation", "playwright", "cypress", "flutter test", "bug report"]
+    },
+    {
+      "id": "tech_leadership",
+      "label": "Engineering Leadership",
+      "icon": "groups",
+      "strongKeywords": ["engineering manager", "tech leadership"],
+      "keywords": ["engineering leadership", "tech lead", "staff engineer", "engineering manager", "one on one", "developer experience", "team velocity", "technical strategy"]
+    },
+    {
+      "id": "future_of_tech",
+      "label": "Future Tech",
+      "icon": "auto_awesome",
+      "strongKeywords": ["future of technology", "emerging technology"],
+      "keywords": ["future tech", "spatial computing", "quantum computing", "biohacking", "agi", "humanoid robot", "future of work", "emerging tech"]
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+<!-- DOOMNOTES - LANDING PAGE -->
+<!-- Purpose: Marketing website to drive app downloads -->
+<!-- Tech: Simple HTML/CSS (host on GitHub Pages, Netlify, or Vercel for free) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoomNotes - Turn Doomscrolling into Organized Knowledge</title>
+    <meta name="description" content="Auto-transcribe Instagram, TikTok, and YouTube videos. Organize notes by topic automatically. Free, offline-first, privacy-focused.">
+    
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="DoomNotes">
+    <meta property="og:description" content="Turn doomscrolling into organized knowledge">
+    <meta property="og:image" content="og-image.png">
+    <meta property="og:url" content="https://doomnotes.app">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <style>
+        /* Modern, clean design */
+        :root {
+            --primary: #2196F3;
+            --dark: #121212;
+            --light: #FFFFFF;
+            --gray: #1E1E1E;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--dark);
+            color: var(--light);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+            background: linear-gradient(135deg, #121212 0%, #1E1E1E 100%);
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #2196F3, #64B5F6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .hero p {
+            font-size: 1.5rem;
+            color: #B0B0B0;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 30px;
+            background: var(--primary);
+            color: var(--light);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(33, 150, 243, 0.3);
+        }
+        
+        .cta-button svg {
+            width: 24px;
+            height: 24px;
+        }
+        
+        /* Features Section */
+        .features {
+            padding: 80px 0;
+            background: var(--gray);
+        }
+        
+        .features h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 60px;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+        
+        .feature-card {
+            background: var(--dark);
+            padding: 40px;
+            border-radius: 12px;
+            border: 1px solid #333;
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+        
+        .feature-card p {
+            color: #B0B0B0;
+            line-height: 1.8;
+        }
+        
+        /* How It Works */
+        .how-it-works {
+            padding: 80px 0;
+        }
+        
+        .how-it-works h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 60px;
+        }
+        
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            text-align: center;
+        }
+        
+        .step {
+            padding: 30px;
+        }
+        
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0 auto 20px;
+        }
+        
+        .step h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        
+        .step p {
+            color: #B0B0B0;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            padding: 80px 0;
+            background: var(--gray);
+        }
+        
+        .testimonials h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 60px;
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+        
+        .testimonial-card {
+            background: var(--dark);
+            padding: 40px;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .testimonial-card p {
+            font-style: italic;
+            color: #B0B0B0;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--light);
+        }
+        
+        /* Privacy Section */
+        .privacy {
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .privacy h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        
+        .privacy p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            color: #B0B0B0;
+            font-size: 1.2rem;
+        }
+        
+        /* Footer */
+        .footer {
+            padding: 40px 0;
+            background: var(--gray);
+            text-align: center;
+            color: #B0B0B0;
+        }
+        
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1.2rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>DoomNotes</h1>
+            <p>Turn doomscrolling into organized knowledge. Auto-transcribe Instagram, TikTok, and YouTube videos.</p>
+            
+            <div class="cta-buttons">
+                <a href="#" class="cta-button">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+                    Download for iOS
+                </a>
+                
+                <a href="#" class="cta-button">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+                    Download for Android
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Why DoomNotes?</h2>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>🚀 One-Tap Capture</h3>
+                    <p>Share any video from Instagram, TikTok, or YouTube directly to DoomNotes. No copying links, no manual input. Just tap share and you're done.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>🤖 Auto-Transcription</h3>
+                    <p>Get accurate text transcripts of any video using Whisper AI. Never miss a valuable insight because the audio was too fast or unclear.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>📁 Smart Organization</h3>
+                    <p>Notes are automatically sorted by topic (investing, color grading, video editing, etc.). Find exactly what you need, when you need it.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>🔍 Instant Search</h3>
+                    <p>Search across all your notes instantly. Find that one tip about color grading or investing strategy in seconds, not minutes.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>💾 Offline-First</h3>
+                    <p>All your notes are stored locally on your device. No internet? No problem. Access everything anytime, anywhere.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>🔒 Privacy-Focused</h3>
+                    <p>No account required. No data selling. Your notes stay on your device. Optional encrypted cloud sync if you want it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Find a Video</h3>
+                    <p>Browse Instagram, TikTok, or YouTube and find educational content you want to save.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Tap Share</h3>
+                    <p>Tap the share button and select DoomNotes from the share sheet.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Get Transcript</h3>
+                    <p>DoomNotes automatically transcribes the video and organizes it by topic.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Search & Review</h3>
+                    <p>Access your organized knowledge base anytime. Search, review, and apply what you learned.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Users Say</h2>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>\"I used to bookmark dozens of Instagram videos and never watch them again. DoomNotes changed that. Now I actually retain the information!\"</p>
+                    <div class="testimonial-author\">— Sarah K., Content Creator</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p>\"As a colorist, I'm always learning new techniques from YouTube. DoomNotes makes it so easy to organize and reference tutorials. Game changer.\"</p>
+                    <div class="testimonial-author\">— Marcus T., Color Grader</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p>\"The auto-organization is insane. I share videos about investing, crypto, and productivity, and they all go to the right folders automatically.\"</p>
+                    <div class="testimonial-author\">— Alex R., Investor</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Privacy Section -->
+    <section class="privacy">
+        <div class="container">
+            <h2>Privacy First</h2>
+            <p>Your data stays on your device. No account required. No tracking. No ads.</p>
+            <p>We believe your knowledge is yours. That's why DoomNotes is designed to be completely private and secure.</p>
+            
+            <a href="privacy.html" style="color: var(--primary); text-decoration: underline;">Read our Privacy Policy →</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="mailto:support@doomnotes.app">Contact</a>
+                <a href="https://twitter.com/doomnotes_app">Twitter</a>
+            </div>
+            <p>&copy; 2026 DoomNotes. All rights reserved.</p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">
+                Not affiliated with Instagram, TikTok, or YouTube.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

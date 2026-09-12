@@ -1,0 +1,202 @@
+{
+  "packId": "politics_news_civic",
+  "label": "Politics, News & Civic Life",
+  "topics": [
+    {
+      "id": "political_news",
+      "label": "Political News",
+      "icon": "newspaper",
+      "strongKeywords": ["political news", "politics update"],
+      "keywords": ["politics", "government update", "breaking news", "political commentary", "current affairs", "headline", "news analysis"]
+    },
+    {
+      "id": "elections_voting",
+      "label": "Elections & Voting",
+      "icon": "how_to_vote",
+      "strongKeywords": ["election update", "voter registration"],
+      "keywords": ["election", "vote", "voting", "candidate", "campaign", "ballot", "voter registration", "polling", "debate"]
+    },
+    {
+      "id": "public_policy",
+      "label": "Public Policy",
+      "icon": "policy",
+      "strongKeywords": ["public policy", "policy analysis"],
+      "keywords": ["policy", "policy proposal", "government program", "public spending", "regulation", "policy reform", "legislation"]
+    },
+    {
+      "id": "law_legislation",
+      "label": "Law & Legislation",
+      "icon": "gavel",
+      "strongKeywords": ["new law", "bill passed"],
+      "keywords": ["bill", "law", "legislation", "parliament", "congress", "senate", "house of representatives", "court ruling", "legal reform"]
+    },
+    {
+      "id": "civic_education",
+      "label": "Civic Education",
+      "icon": "account_balance",
+      "strongKeywords": ["civic education", "how government works"],
+      "keywords": ["constitution", "democracy", "civic duty", "government branches", "citizenship", "rule of law", "political system"]
+    },
+    {
+      "id": "human_rights",
+      "label": "Human Rights",
+      "icon": "volunteer_activism",
+      "strongKeywords": ["human rights", "civil rights"],
+      "keywords": ["civil rights", "human rights", "freedom of speech", "discrimination", "equality", "justice", "activism", "rights advocacy"]
+    },
+    {
+      "id": "social_justice",
+      "label": "Social Justice",
+      "icon": "diversity_3",
+      "strongKeywords": ["social justice", "racial justice"],
+      "keywords": ["social justice", "inequality", "equity", "racial justice", "gender equality", "inclusion", "marginalized community"]
+    },
+    {
+      "id": "economy_policy",
+      "label": "Economy & Economic Policy",
+      "icon": "show_chart",
+      "strongKeywords": ["economic policy", "economy explained"],
+      "keywords": ["inflation", "interest rates", "gdp", "unemployment", "cost of living", "budget policy", "tax policy", "economic reform"]
+    },
+    {
+      "id": "tax_policy",
+      "label": "Taxes & Public Finance",
+      "icon": "receipt_long",
+      "strongKeywords": ["tax policy", "government budget"],
+      "keywords": ["tax", "government budget", "public debt", "national budget", "fiscal policy", "tax reform", "public finance"]
+    },
+    {
+      "id": "health_policy_civic",
+      "label": "Health Policy",
+      "icon": "health_and_safety",
+      "strongKeywords": ["health policy", "public health policy"],
+      "keywords": ["healthcare policy", "health insurance", "public health", "hospital funding", "health reform", "medical policy"]
+    },
+    {
+      "id": "education_policy",
+      "label": "Education Policy",
+      "icon": "school",
+      "strongKeywords": ["education policy", "school policy"],
+      "keywords": ["school funding", "education reform", "student loan policy", "university policy", "teachers strike", "curriculum debate"]
+    },
+    {
+      "id": "climate_policy",
+      "label": "Climate & Environment Policy",
+      "icon": "forest",
+      "strongKeywords": ["climate policy", "environmental policy"],
+      "keywords": ["climate action", "climate policy", "carbon emissions", "renewable energy policy", "environmental regulation", "climate crisis"]
+    },
+    {
+      "id": "foreign_policy",
+      "label": "Foreign Policy",
+      "icon": "public",
+      "strongKeywords": ["foreign policy", "international relations"],
+      "keywords": ["diplomacy", "international relations", "foreign affairs", "sanctions", "treaty", "embassy", "geopolitics", "bilateral relations"]
+    },
+    {
+      "id": "global_conflicts",
+      "label": "Global Conflicts",
+      "icon": "warning",
+      "strongKeywords": ["war update", "conflict update"],
+      "keywords": ["war", "conflict", "ceasefire", "peace talks", "military conflict", "humanitarian crisis", "refugee crisis", "invasion"]
+    },
+    {
+      "id": "immigration_policy",
+      "label": "Immigration Policy",
+      "icon": "language",
+      "strongKeywords": ["immigration policy", "visa policy"],
+      "keywords": ["immigration", "visa", "border policy", "asylum", "refugee", "citizenship", "deportation", "migration"]
+    },
+    {
+      "id": "crime_public_safety",
+      "label": "Crime & Public Safety",
+      "icon": "local_police",
+      "strongKeywords": ["public safety", "crime news"],
+      "keywords": ["crime", "policing", "public safety", "criminal justice", "court case", "investigation", "community safety"]
+    },
+    {
+      "id": "media_literacy",
+      "label": "Media Literacy & Fact-Checking",
+      "icon": "fact_check",
+      "strongKeywords": ["fact check", "media literacy"],
+      "keywords": ["misinformation", "disinformation", "fake news", "fact check", "source verification", "media bias", "propaganda"]
+    },
+    {
+      "id": "political_history",
+      "label": "Political History",
+      "icon": "history",
+      "strongKeywords": ["political history", "history explained"],
+      "keywords": ["historical election", "civil rights history", "political movement", "revolution", "history of government", "political figure"]
+    },
+    {
+      "id": "local_government",
+      "label": "Local Government",
+      "icon": "location_city",
+      "strongKeywords": ["local government", "city council"],
+      "keywords": ["mayor", "city council", "local election", "community meeting", "state government", "local policy", "municipal"]
+    },
+    {
+      "id": "african_politics",
+      "label": "African Politics",
+      "icon": "public",
+      "strongKeywords": ["african politics", "africa politics"],
+      "keywords": ["african election", "ecowas", "african union", "nigeria politics", "ghana politics", "kenya politics", "south africa politics"]
+    },
+    {
+      "id": "us_politics",
+      "label": "US Politics",
+      "icon": "flag",
+      "strongKeywords": ["us politics", "american politics"],
+      "keywords": ["white house", "congress", "senate", "supreme court", "democrats", "republicans", "president trump", "us election"]
+    },
+    {
+      "id": "uk_politics",
+      "label": "UK Politics",
+      "icon": "flag",
+      "strongKeywords": ["uk politics", "british politics"],
+      "keywords": ["westminster", "parliament uk", "prime minister", "labour party", "conservative party", "house of commons", "uk election"]
+    },
+    {
+      "id": "political_ideologies",
+      "label": "Political Ideologies",
+      "icon": "balance",
+      "strongKeywords": ["political ideology", "political spectrum"],
+      "keywords": ["liberalism", "conservatism", "socialism", "capitalism", "libertarianism", "progressivism", "nationalism", "political spectrum"]
+    },
+    {
+      "id": "activism_organizing",
+      "label": "Activism & Organizing",
+      "icon": "campaign",
+      "strongKeywords": ["community organizing", "political activism"],
+      "keywords": ["protest", "activism", "petition", "organizing", "mutual aid", "advocacy campaign", "grassroots", "community action"]
+    },
+    {
+      "id": "public_opinion_debates",
+      "label": "Political Debate & Opinion",
+      "icon": "forum",
+      "strongKeywords": ["political debate", "political opinion"],
+      "keywords": ["debate", "political opinion", "commentary", "political podcast", "policy debate", "op ed", "political analysis"]
+    },
+    {
+      "id": "election_security",
+      "label": "Election Integrity",
+      "icon": "verified_user",
+      "strongKeywords": ["election integrity", "election security"],
+      "keywords": ["election security", "voting machine", "ballot counting", "election fraud claim", "election results", "poll worker"]
+    },
+    {
+      "id": "government_opportunities",
+      "label": "Government Opportunities",
+      "icon": "business_center",
+      "strongKeywords": ["government opportunity", "public sector vacancy"],
+      "keywords": ["government grant", "public sector job", "government internship", "policy fellowship", "civil service exam", "government program"]
+    },
+    {
+      "id": "news_explainers",
+      "label": "News Explainers",
+      "icon": "live_help",
+      "strongKeywords": ["news explained", "explainer video"],
+      "keywords": ["explained", "what happened", "breaking down", "news context", "current events explained", "politics explained"]
+    }
+  ]
+}

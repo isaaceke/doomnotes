@@ -1,0 +1,209 @@
+{
+  "packId": "money_investing",
+  "label": "Money & Investing",
+  "topics": [
+    {
+      "id": "stocks_investing",
+      "label": "Stocks & Investing",
+      "icon": "show_chart",
+      "strongKeywords": ["stock market", "investing for beginners"],
+      "keywords": ["stocks", "investing", "portfolio", "dividend", "ETF", "index fund", "roth IRA", "401k", "trading", "bonds", "mutual fund", "asset allocation", "compound interest", "bear market", "bull market", "recession"]
+    },
+    {
+      "id": "crypto_web3",
+      "label": "Crypto & Web3",
+      "icon": "currency_bitcoin",
+      "strongKeywords": ["cryptocurrency", "bitcoin wallet"],
+      "keywords": ["crypto", "bitcoin", "ethereum", "blockchain", "wallet", "mining", "DeFi", "NFT", "altcoin", "token", "staking", "yield farming", "smart contract", "gas fee", "layer 2", "exchange", "cold wallet", "hot wallet", "DAO", "metaverse", "web3"]
+    },
+    {
+      "id": "personal_finance_budgeting",
+      "label": "Budgeting & Personal Finance",
+      "icon": "account_balance_wallet",
+      "strongKeywords": ["personal finance", "budgeting tips"],
+      "keywords": ["budget", "saving money", "money management", "debt payoff", "financial goals", "side hustle", "investing basics", "frugal living", "emergency fund", "cash envelope", "zero based budget", "50/30/20 rule"]
+    },
+    {
+      "id": "tax_finance",
+      "label": "Taxes & Public Finance",
+      "icon": "receipt_long",
+      "strongKeywords": ["tax tips", "tax return"],
+      "keywords": ["tax", "IRS", "tax return", "tax filing", "deduction", "credit", "exemption", "bracket", "rate", "income", "expense", "receipt", "form", "schedule", "audit", "penalty", "interest", "refund", "payment", "deadline", "extension", "estimated tax", "withholding", "W2", "1099"]
+    },
+    {
+      "id": "real_estate_investing",
+      "label": "Real Estate",
+      "icon": "home",
+      "strongKeywords": ["real estate investing", "rental property"],
+      "keywords": ["real estate", "property", "house", "apartment", "condo", "land", "investment", "mortgage", "loan", "interest rate", "rent", "lease", "tenant", "landlord", "property management", "real estate agent", "broker", "appraisal", "closing", "equity", "refinance", "foreclosure", "REIT", "house hacking", "BRRRR"]
+    },
+    {
+      "id": "forex_trading",
+      "label": "Forex & Trading",
+      "icon": "currency_exchange",
+      "strongKeywords": ["forex trading", "day trading"],
+      "keywords": ["forex", "FX", "currency trading", "day trading", "swing trading", "scalping", "leverage", "margin", "pip", "lot", "spread", "technical analysis", "chart pattern", "candlestick", "indicator", "risk management", "trading psychology", "backtesting"]
+    },
+    {
+      "id": "business_finance",
+      "label": "Business Finance",
+      "icon": "business_center",
+      "strongKeywords": ["business finance", "small business finance"],
+      "keywords": ["revenue", "profit", "cash flow", "P&L", "balance sheet", "income statement", "expense", "overhead", "margin", "break even", "business loan", "line of credit", "invoice", "accounts receivable", "accounts payable", "bookkeeping", "accounting software", "QuickBooks", "Xero"]
+    },
+    {
+      "id": "credit_cards_loans",
+      "label": "Credit Cards & Loans",
+      "icon": "credit_card",
+      "strongKeywords": ["credit card tips", "best credit card"],
+      "keywords": ["credit card", "credit score", "APR", "rewards", "cash back", "points", "travel card", "balance transfer", "credit limit", "minimum payment", "personal loan", "student loan", "auto loan", "debt consolidation", "refinance", "credit report", "credit utilization", "hard inquiry", "soft inquiry"]
+    },
+    {
+      "id": "retirement_planning",
+      "label": "Retirement Planning",
+      "icon": "savings",
+      "strongKeywords": ["retirement planning", "retirement savings"],
+      "keywords": ["retirement", "pension", "401k", "IRA", "roth IRA", "social security", "withdrawal", "distribution", "RMD", "tax", "penalty", "rule", "age", "date", "plan", "goal", "lifestyle", "healthcare", "insurance", "estate", "will", "trust", "beneficiary", "target date fund"]
+    },
+    {
+      "id": "insurance_finance",
+      "label": "Insurance",
+      "icon": "health_and_safety",
+      "strongKeywords": ["insurance policy", "best insurance"],
+      "keywords": ["insurance", "policy", "coverage", "premium", "claim", "deductible", "beneficiary", "agent", "broker", "underwriting", "risk", "liability", "auto insurance", "home insurance", "health insurance", "life insurance", "disability insurance", "travel insurance", "pet insurance", "business insurance"]
+    },
+    {
+      "id": "fintech_apps",
+      "label": "FinTech & Money Apps",
+      "icon": "phone_android",
+      "strongKeywords": ["fintech app", "money app"],
+      "keywords": ["fintech", "budget app", "investment app", "robo advisor", "neobank", "digital bank", "payment app", "peer to peer payment", "Venmo", "Cash App", "PayPal", "Revolut", "Chime", "Monzo", "N26", "crypto app", "trading app", "Robinhood", "Webull"]
+    },
+    {
+      "id": "financial_independence",
+      "label": "Financial Independence (FIRE)",
+      "icon": "local_fire_department",
+      "strongKeywords": ["financial independence", "FIRE movement"],
+      "keywords": ["FIRE", "financial independence retire early", "passive income", "multiple streams", "diversify", "risk", "time", "energy", "focus", "priority", "goal", "plan", "action", "result", "income", "profit", "expense", "tax", "legal", "structure", "LLC", "corporation", "sole proprietorship", "4% rule", "coast FIRE", "barista FIRE"]
+    },
+    {
+      "id": "side_hustle_income",
+      "label": "Side Hustles & Extra Income",
+      "icon": "bolt",
+      "strongKeywords": ["side hustle ideas", "make extra money"],
+      "keywords": ["side hustle", "side business", "passive income", "active income", "multiple streams", "diversify", "risk", "time", "energy", "focus", "priority", "goal", "plan", "action", "result", "income", "profit", "expense", "tax", "legal", "structure", "LLC", "corporation", "sole proprietorship", "freelance", "gig", "online income", "digital product"]
+    },
+    {
+      "id": "economics_news",
+      "label": "Economics & News",
+      "icon": "newspaper",
+      "strongKeywords": ["economic news", "economy explained"],
+      "keywords": ["economics", "economic", "economy", "market", "supply", "demand", "price", "cost", "value", "trade", "commerce", "industry", "business", "finance", "money", "currency", "exchange rate", "inflation", "deflation", "recession", "depression", "GDP", "unemployment", "interest rate", "central bank", "federal reserve", "ECB", "BOJ"]
+    },
+    {
+      "id": "frugal_living",
+      "label": "Frugal Living",
+      "icon": "eco",
+      "strongKeywords": ["frugal living", "save money tips"],
+      "keywords": ["frugal", "save money", "cheap living", "budget friendly", "discount", "coupon", "cashback", "deal", "thrifty", "minimalist", "simple living", "downsizing", "DIY", "repair", "secondhand", "thrift", "buy nothing", "swap", "share economy"]
+    },
+    {
+      "id": "money_mindset",
+      "label": "Money Mindset",
+      "icon": "psychology",
+      "strongKeywords": ["money mindset", "money beliefs"],
+      "keywords": ["money mindset", "money beliefs", "money blocks", "abundance", "scarcity", "financial trauma", "money scripts", "money habits", "money goals", "money values", "money anxiety", "money shame", "money confidence", "money identity", "money story", "money therapy"]
+    },
+    {
+      "id": "wealth_building",
+      "label": "Wealth Building",
+      "icon": "trending_up",
+      "strongKeywords": ["build wealth", "wealth creation"],
+      "keywords": ["wealth", "net worth", "asset", "liability", "equity", "capital", "investment", "compounding", "diversification", "risk tolerance", "time horizon", "financial plan", "wealth manager", "private banker", "family office", "high net worth", "ultra high net worth", "millionaire", "billionaire"]
+    },
+    {
+      "id": "student_finance",
+      "label": "Student Finance",
+      "icon": "school",
+      "strongKeywords": ["student loan", "student finance"],
+      "keywords": ["student loan", "tuition fee", "living expenses", "budget student", "save money at college", "financial aid", "scholarship", "grant", "bursary", "work study", "part time job", "internship", "student discount", "student bank account", "student credit card", "debt management", "loan forgiveness", "income driven repayment"]
+    },
+    {
+      "id": "money_for_couples",
+      "label": "Money for Couples",
+      "icon": "groups",
+      "strongKeywords": ["couple finance", "money and relationships"],
+      "keywords": ["couple finance", "joint account", "separate accounts", "money arguments", "financial goals together", "budget as a couple", "debt as a couple", "saving for a house", "wedding budget", "prenup", "postnup", "money values", "money communication", "financial infidelity", "money trust"]
+    },
+    {
+      "id": "money_for_parents",
+      "label": "Money for Parents",
+      "icon": "family_restroom",
+      "strongKeywords": ["parenting finance", "money and kids"],
+      "keywords": ["parenting finance", "childcare cost", "baby budget", "kids allowance", "teaching kids about money", "college savings", "529 plan", "child trust fund", "family budget", "parental leave", "maternity pay", "paternity pay", "child benefit", "dependent", "family tax credit"]
+    },
+    {
+      "id": "ethical_investing",
+      "label": "Ethical & Sustainable Investing",
+      "icon": "leaf",
+      "strongKeywords": ["ethical investing", "sustainable investing"],
+      "keywords": ["ethical investing", "sustainable investing", "ESG", "impact investing", "socially responsible", "green bond", "carbon footprint", "divestment", "fossil free", "fair trade", "community investing", "microfinance", "crowdfunding", "peer to peer lending", "ethical bank", "values based investing"]
+    },
+    {
+      "id": "angel_vc_fundraising",
+      "label": "Angel, VC & Fundraising",
+      "icon": "rocket_launch",
+      "strongKeywords": ["venture capital", "angel investor"],
+      "keywords": ["fundraise", "investor", "VC", "venture capital", "angel", "seed", "series A", "series B", "series C", "valuation", "term sheet", "cap table", "dilution", "equity", "debt", "convertible", "SAFE", "pitch deck", "demo day", "accelerator", "incubator", "grant", "crowdfunding", "revenue based financing", "venture debt"]
+    },
+    {
+      "id": "financial_literacy",
+      "label": "Financial Literacy",
+      "icon": "menu_book",
+      "strongKeywords": ["financial literacy", "money education"],
+      "keywords": ["financial literacy", "money education", "financial education", "financial capability", "money skills", "financial capability framework", "financial wellbeing", "financial health", "financial inclusion", "unbanked", "underbanked", "microfinance", "financial coaching", "financial counseling", "money workshop", "financial curriculum"]
+    },
+    {
+      "id": "scams_fraud_protection",
+      "label": "Scams & Fraud Protection",
+      "icon": "warning",
+      "strongKeywords": ["scam alert", "fraud protection"],
+      "keywords": ["scam", "fraud", "phishing", "identity theft", "account takeover", "card fraud", "investment scam", "romance scam", "advance fee fraud", "pyramid scheme", "Ponzi scheme", "fake crypto", "impersonation scam", "refund scam", "lottery scam", "prize scam", "charity scam", "disaster scam", "fraud alert", "credit freeze", "fraud report"]
+    },
+    {
+      "id": "money_news_updates",
+      "label": "Money News & Updates",
+      "icon": "notifications_active",
+      "strongKeywords": ["money news", "finance update"],
+      "keywords": ["money news", "finance news", "market update", "stock update", "crypto update", "economic data", "interest rate decision", "inflation report", "jobs report", "earnings season", "IPO", "merger", "acquisition", "bankruptcy", "restructuring", "layoff", "hiring freeze", "salary survey", "cost of living update"]
+    },
+    {
+      "id": "money_tools_apps",
+      "label": "Money Tools & Apps",
+      "icon": "apps",
+      "strongKeywords": ["budget tool", "money app"],
+      "keywords": ["budget tool", "expense tracker", "net worth tracker", "investment tracker", "portfolio tracker", "crypto tracker", "bill reminder", "subscription tracker", "savings goal", "debt payoff app", "fire calculator", "compound interest calculator", "retirement calculator", "mortgage calculator", "tax calculator", "tip calculator", "split bill", "currency converter"]
+    },
+    {
+      "id": "global_markets",
+      "label": "Global Markets",
+      "icon": "public",
+      "strongKeywords": ["global markets", "world markets"],
+      "keywords": ["global markets", "world markets", "emerging markets", "developed markets", "frontier markets", "commodities", "gold", "silver", "oil", "natural gas", "copper", "agriculture", "soft commodities", "futures", "options", "derivatives", "hedge fund", "private equity", "sovereign wealth fund", "pension fund", "endowment"]
+    },
+    {
+      "id": "money_for_creators",
+      "label": "Money for Creators",
+      "icon": "video_library",
+      "strongKeywords": ["creator economy", "creator income"],
+      "keywords": ["creator economy", "creator income", "influencer income", "youtube revenue", "tiktok creator fund", "instagram bonuses", "brand deal", "sponsored content", "affiliate income", "digital product", "course", "membership", "subscription", "patreon", "ko-fi", "buy me a coffee", "merch", "licensing", "royalties", "ad revenue"]
+    },
+    {
+      "id": "money_for_tech_workers",
+      "label": "Money for Tech Workers",
+      "icon": "computer",
+      "strongKeywords": ["tech worker finance", "RSU"],
+      "keywords": ["tech worker finance", "RSU", "stock option", "equity compensation", "409A", "ISO", "NSO", "ESPP", "backdoor roth", "mega backdoor roth", "HSA", "FSA", "deferred comp", "golden handcuffs", "job hop", "salary negotiation", "sign on bonus", "relocation package", "severance", "layoff package", "unemployment benefit"]
+    }
+  ]
+}
